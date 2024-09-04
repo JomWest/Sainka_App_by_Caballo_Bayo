@@ -29,7 +29,7 @@
 
         <Frame HeightRequest="450" WidthRequest="400" VerticalOptions="End" CornerRadius="25" BackgroundColor="#2760DB" Margin="0,0,0,-50">
             <VerticalStackLayout >
-                <Frame CornerRadius="20" BorderColor="#00F1AF">
+                <Frame CornerRadius="20" BorderColor="#00F1AF" BackgroundColor="White">
                     <Label x:Name="predictionLabel"
 Grid.Row="1"
 Grid.Column="0"

@@ -67,14 +67,18 @@
 	<ItemGroup>
 	  <None Remove="Resources\Images\bienvenido.png" />
 	  <None Remove="Resources\Images\camara.png" />
+	  <None Remove="Resources\Images\contras.png" />
+	  <None Remove="Resources\Images\logint.png" />
 	  <None Remove="Resources\Images\sainkalogo.png" />
 	  <None Remove="Resources\Images\splash.svg" />
 	  <None Remove="Resources\Images\splashpage.png" />
+	  <None Remove="Resources\Images\usuarios.png" />
 	  <None Remove="Resources\Images\vector.png" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui.Camera" Version="1.0.4" />
+		<PackageReference Include="FirebaseAuthentication.net" Version="4.1.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
@@ -85,6 +89,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="CamaraPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="LoginOptionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MenuPage.xaml">

@@ -35,7 +35,7 @@ public partial class BIenvenida : ContentPage
     private async void OnMenuClicked(object sender, EventArgs e)
     {
 
-        await Navigation.PushAsync(new MenuPage());
+        await Navigation.PushAsync(new LoginOptionPage());
 
 
     }
