@@ -1,0 +1,71 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sainkadelux
+build_property.ProjectDir = C:\Users\Azazel\OneDrive\Escritorio\Saimka_App_Oficial\Sainkadelux\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/BIenvenida.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.BIenvenida.xaml
+build_metadata.AdditionalFiles.TargetPath = BIenvenida.xaml
+build_metadata.AdditionalFiles.RelativePath = BIenvenida.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/CamaraPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.CamaraPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CamaraPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CamaraPage.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/MenuPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.MenuPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MenuPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MenuPage.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Azazel/OneDrive/Escritorio/Saimka_App_Oficial/Sainkadelux/SplashPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Sainkadelux.SplashPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SplashPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SplashPage.xaml

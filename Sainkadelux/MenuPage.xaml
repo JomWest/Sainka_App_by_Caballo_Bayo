@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.MenuPage"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <Frame BackgroundColor="#2760DB" CornerRadius="50" HeightRequest="200" WidthRequest="400" Margin="0,-70,0,0">
+            <Image Source="sainkalogo.png" WidthRequest="220" HeightRequest="50" Margin="0,60,0,0"/>
+        </Frame>
+        <VerticalStackLayout >
+            <Frame BackgroundColor="#00F1AF" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                       Tapped="OnCameraPageTapped" 
+                       NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <Image Source="camara.png" WidthRequest="78" HeightRequest="78"/>
+            </Frame>
+            <Label Text="Señas a texto" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+        </VerticalStackLayout>
+        <VerticalStackLayout Margin="0,-70,0,0">
+            <Frame BackgroundColor="#2760DB" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
+                <Image Source="vector.png" WidthRequest="78" HeightRequest="78"/>
+            </Frame>
+            <Label Text="PDF de señas" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

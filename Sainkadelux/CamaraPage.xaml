@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Sainkadelux.CamaraPage"
+            NavigationPage.HasNavigationBar="False">
+    
+    <Grid BackgroundColor="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Frame Padding="0" BorderColor="Transparent" CornerRadius="20" WidthRequest="380" HeightRequest="300" VerticalOptions="Start" Margin="0,20,0,0" >
+            <Grid Grid.Row="0" Grid.Column="0">
+                <toolkit:CameraView 
+            Grid.Row="0"
+            x:Name="cameraView"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"
+            MediaCaptured="cameraView_MediaCaptured"
+               HeightRequest="300"
+                    WidthRequest="380"/>
+            </Grid>
+        </Frame>
+
+        <Frame HeightRequest="450" WidthRequest="400" VerticalOptions="End" CornerRadius="25" BackgroundColor="#2760DB" Margin="0,0,0,-50">
+            <VerticalStackLayout >
+                <Frame CornerRadius="20" BorderColor="#00F1AF">
+                    <Label x:Name="predictionLabel"
+Grid.Row="1"
+Grid.Column="0"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+FontSize="28"
+TextColor="Black"
+Text="|"
+ FontAttributes="Bold"/>
+                </Frame>
+                
+                <Image 
+      Grid.Row="2"
+      x:Name="capturedImage"
+      WidthRequest="50"
+      HeightRequest="50"
+      Aspect="AspectFit"
+      HorizontalOptions="Center"
+      VerticalOptions="End" Margin="0,230,300,0"/>
+            </VerticalStackLayout>
+
+     
+        </Frame>
+
+    </Grid>
+</ContentPage>

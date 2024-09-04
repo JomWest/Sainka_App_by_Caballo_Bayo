@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.SplashPage">
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="splashpage.png" Aspect="AspectFill" />
+
+   
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
