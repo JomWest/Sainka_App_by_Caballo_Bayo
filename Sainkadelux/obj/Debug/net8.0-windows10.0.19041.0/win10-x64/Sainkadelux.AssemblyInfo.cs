@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sainkadelux")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ae2862b8651989f901e0e80d80264ca973a11af8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+da42b2efd23ec7503b7918b8de592cbd510b0f36")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sainkadelux")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sainkadelux")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
