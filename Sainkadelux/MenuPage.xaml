@@ -20,9 +20,14 @@
         </VerticalStackLayout>
         <VerticalStackLayout Margin="0,-70,0,0">
             <Frame BackgroundColor="#2760DB" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                      Tapped="OnLevelPageTapped" 
+                      NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
                 <Image Source="vector.png" WidthRequest="78" HeightRequest="78"/>
             </Frame>
-            <Label Text="PDF de señas" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+            <Label Text="Aprende lenguaje de señas" HorizontalOptions="Center" Margin="15" FontSize="24"/>
         </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

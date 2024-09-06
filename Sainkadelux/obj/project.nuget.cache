@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cbB6mwT9VIA=",
+  "dgSpecHash": "sZTwZ7qRCmQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\Saimka_App_Oficial\\Sainkadelux\\Sainkadelux.csproj",
+  "projectFilePath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\prueba commit\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Sainkadelux.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Azazel\\.nuget\\packages\\communitytoolkit.maui.camera\\1.0.4\\communitytoolkit.maui.camera.1.0.4.nupkg.sha512",
     "C:\\Users\\Azazel\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\firebaseauthentication.net.4.1.0.nupkg.sha512",

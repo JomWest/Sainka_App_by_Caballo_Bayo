@@ -52,5 +52,9 @@ namespace Sainkadelux
                 }
             }
         }
+        private async void OnRegistrarTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegistrartePage());
+        }
     }
 }

@@ -35940,11 +35940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\Saimka_App_Oficial\\Sainkadelux\\Sainkadelux.csproj",
+      "projectUniqueName": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\prueba commit\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Sainkadelux.csproj",
       "projectName": "Sainkadelux",
-      "projectPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\Saimka_App_Oficial\\Sainkadelux\\Sainkadelux.csproj",
+      "projectPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\prueba commit\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Sainkadelux.csproj",
       "packagesPath": "C:\\Users\\Azazel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\Saimka_App_Oficial\\Sainkadelux\\obj\\",
+      "outputPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\prueba commit\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

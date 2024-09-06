@@ -2,7 +2,7 @@ namespace Sainkadelux;
 
 public partial class BIenvenida : ContentPage
 {
-    private const int TypingSpeed = 45;
+    private const int TypingSpeed = 35;
     public BIenvenida()
 	{
 		InitializeComponent();

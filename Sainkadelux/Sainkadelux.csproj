@@ -1,4 +1,5 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
@@ -61,17 +62,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="RegitrarLoginPage.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiImage Remove="Resources\Images\splash.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Remove="RegitrarLoginPage.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\Poppins-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Light.ttf" />
+	  <None Remove="Resources\Images\a.png" />
+	  <None Remove="Resources\Images\ab.png" />
+	  <None Remove="Resources\Images\al.png" />
 	  <None Remove="Resources\Images\bienvenido.png" />
 	  <None Remove="Resources\Images\camara.png" />
 	  <None Remove="Resources\Images\contras.png" />
+	  <None Remove="Resources\Images\e.png" />
+	  <None Remove="Resources\Images\eb.png" />
+	  <None Remove="Resources\Images\el.png" />
+	  <None Remove="Resources\Images\googlee.png" />
+	  <None Remove="Resources\Images\i.png" />
+	  <None Remove="Resources\Images\ib.png" />
+	  <None Remove="Resources\Images\il.png" />
 	  <None Remove="Resources\Images\logint.png" />
+	  <None Remove="Resources\Images\o.png" />
+	  <None Remove="Resources\Images\ob.png" />
+	  <None Remove="Resources\Images\ol.png" />
 	  <None Remove="Resources\Images\sainkalogo.png" />
 	  <None Remove="Resources\Images\splash.svg" />
 	  <None Remove="Resources\Images\splashpage.png" />
+	  <None Remove="Resources\Images\u.png" />
+	  <None Remove="Resources\Images\ub.png" />
+	  <None Remove="Resources\Images\ul.png" />
 	  <None Remove="Resources\Images\usuarios.png" />
 	  <None Remove="Resources\Images\vector.png" />
 	</ItemGroup>
@@ -91,10 +118,16 @@
 	  <MauiXaml Update="CamaraPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="LeavelPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="LoginOptionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="RegistrartePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SplashPage.xaml">

@@ -10,217 +10,232 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.sainkadelux</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.runtimeconfig.json">
       <PackagePath>Sainkadelux.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.dll">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.dll">
       <PackagePath>Sainkadelux.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Sainkadelux.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
-      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\a.scale-100.png">
+      <PackagePath>a.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
-      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
-      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
-      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
-      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
-      <PackagePath>OpenSans-Regular.ttf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
-      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bienvenido.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bienvenido.scale-100.png">
       <PackagePath>bienvenido.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\camara.scale-100.png">
+      <PackagePath>camara.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\contras.scale-100.png">
+      <PackagePath>contras.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sainkalogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\e.scale-100.png">
+      <PackagePath>e.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\googlee.scale-100.png">
+      <PackagePath>googlee.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\i.scale-100.png">
+      <PackagePath>i.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logint.scale-100.png">
+      <PackagePath>logint.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\o.scale-100.png">
+      <PackagePath>o.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\sainkalogo.scale-100.png">
       <PackagePath>sainkalogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\Sainkadelux\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.deps.json">
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\splashpage.scale-100.png">
+      <PackagePath>splashpage.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\u.scale-100.png">
+      <PackagePath>u.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usuarios.scale-100.png">
+      <PackagePath>usuarios.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vector.scale-100.png">
+      <PackagePath>vector.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\OneDrive\Escritorio\prueba commit\Sainka_App_by_Caballo_Bayo\Sainkadelux\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Sainkadelux.deps.json">
       <PackagePath>Sainkadelux.deps.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
@@ -228,6 +243,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\communitytoolkit.maui.camera\1.0.4\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Camera.dll">
+      <PackagePath>CommunityToolkit.Maui.Camera.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\firebaseauthentication.net\4.1.0\lib\netstandard2.0\Firebase.Auth.dll">
+      <PackagePath>Firebase.Auth.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -324,6 +345,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\microsoft.windowsappsdk\1.5.240607001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\newtonsoft.json\13.0.2\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Azazel\.nuget\packages\microsoft.maui.controls.core\8.0.72\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.RegistrartePage"
+            NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout Background="#2760DB">
+        <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="79" Margin="0,100,0,0"/>
+
+
+        <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" CornerRadius="50" IsVisible="True" VerticalOptions="End"  Margin="0,10,0,0" ZIndex="1" HeightRequest="900">
+            <VerticalStackLayout Margin="0,-20,0,0" Spacing="35" VerticalOptions="Start">
+                <HorizontalStackLayout HorizontalOptions="Center" Margin="0,40,0,0">
+                    <Label Text="REG" FontSize="35" FontAttributes="Bold" FontFamily="PoppinsBold"/>
+                    <Image Source="i.png" WidthRequest="35" Margin="0,0,0,20"/>
+                    <Label Text="STRARSE" FontSize="35" FontAttributes="Bold" FontFamily="PoppinsBold"/>
+                </HorizontalStackLayout>
+
+
+                <VerticalStackLayout Spacing="10">
+                    <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
+                        <HorizontalStackLayout >
+                            <Entry x:Name="CorreoEntry" Placeholder="CORREO" VerticalTextAlignment="Start" HorizontalOptions="Center" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
+                        <HorizontalStackLayout>
+                            <Entry x:Name="NombreEntry" Placeholder="NOMBRE DE USUARIO" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
+                        <HorizontalStackLayout>
+                            <Entry x:Name="ContraseñaEntry" Placeholder="CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
+                        <HorizontalStackLayout>
+                            <Entry x:Name="ReContraseñaEntry" Placeholder="REPETIR CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,40,0,0"  IsVisible="True">
+                        <Button  Text="continuar" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="Registrar_Clicked"/>
+                    </Frame>
+                </VerticalStackLayout>
+           
+            </VerticalStackLayout>
+        </Frame>
+
+
+    </VerticalStackLayout>
+
+</ContentPage>

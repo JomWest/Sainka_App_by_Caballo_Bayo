@@ -6,12 +6,12 @@
     <VerticalStackLayout Background="#2760DB">
         <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="79" Margin="0,200,0,0"/>
         <Frame x:Name="BotonInicio" Padding="0" BorderColor="Transparent" CornerRadius="50" WidthRequest="250" HeightRequest="70" Margin="0,250,0,0" >
-            <Button  Text="Empezar!" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="OnStartButtonClicked"/>
+            <Button  Text="Empezar!" CharacterSpacing="1" FontSize="24" WidthRequest="300" HeightRequest="100" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="OnStartButtonClicked"/>
         </Frame>
 
-        <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" CornerRadius="50" IsVisible="False" VerticalOptions="End" TranslationY="700" Margin="0,50,0,0" ZIndex="1" HeightRequest="500">
-            <VerticalStackLayout Margin="0,-20,0,0">
-                <Image Source="bienvenido.png" WidthRequest="229" HeightRequest="34" Margin="0,70,0,0"/>
+        <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" BorderColor="Transparent" CornerRadius="50" IsVisible="False" VerticalOptions="End" TranslationY="700" Margin="0,50,0,0" ZIndex="1" HeightRequest="700">
+            <VerticalStackLayout Margin="0,-20,0,0" >
+                <Label Text="BIENVENIDOS" HorizontalTextAlignment="Center" FontFamily="PoppinsBold" FontSize="30" FontAttributes="Bold" Margin="0,30,0,0" CharacterSpacing="-1"/>
                 <Label x:Name="WelcomeLabel"
                            Text="|"
                            HorizontalOptions="Center"
@@ -25,8 +25,8 @@
                            BackgroundColor="White"
                            Margin="0,40,0,0"/>
 
-                <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,40,0,0"  IsVisible="False">
-                    <Button  Text="continuar" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="OnMenuClicked"/>
+                <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,90,0,0"  IsVisible="False">
+                    <Button  Text="continuar" CharacterSpacing="1" FontSize="24" WidthRequest="300" HeightRequest="100" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="OnMenuClicked" Padding="20"/>
                 </Frame>
             </VerticalStackLayout>
         </Frame>
