@@ -1,15 +1,19 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
+using Sainkadelux.Repositories;
 using Sainkadelux.ViewModels;
 
 namespace Sainkadelux
 {
     public partial class LoginOptionPage : ContentPage
     {
-        public LoginOptionPage(LoginViewModel viewModel)
+        private readonly INavigationService _navigationService;
+
+        public LoginOptionPage(LoginViewModel viewModel, INavigationService navigationService)
         {
             InitializeComponent();
+            _navigationService = navigationService;
             BindingContext = viewModel;
             viewModel.PropertyChanged += ViewModel_PropertyChanged;
         }
@@ -25,13 +29,15 @@ namespace Sainkadelux
                 if (!string.IsNullOrEmpty(viewModel.ErrorMessage))
                 {
                     await DisplayAlert("Error", viewModel.ErrorMessage, "OK");
+
+                    viewModel.ErrorMessage = string.Empty;
                 }
             }
         }
 
         private async void OnRegistrarTapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegistrartePage());
+            await _navigationService.NavigateToRegisterPage();
         }
     }
 }

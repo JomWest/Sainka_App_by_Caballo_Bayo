@@ -25,9 +25,15 @@ namespace Sainkadelux
 
             builder.Services.AddSingleton<IFirebaseAuthRepository, FirebaseAuthRepository>();
             builder.Services.AddSingleton<INavigationService, NavigationService>();
+
             builder.Services.AddSingleton<LoginViewModel>();
-            builder.Services.AddSingleton<LoginOptionPage>();
-            builder.Services.AddSingleton<RegistrartePage>();
+            builder.Services.AddSingleton<RegisterViewModel>();
+
+            builder.Services.AddTransient<LoginOptionPage>();
+            builder.Services.AddTransient<Func<LoginOptionPage>>(sp => () => sp.GetRequiredService<LoginOptionPage>());
+
+            builder.Services.AddTransient<RegistrartePage>();
+            builder.Services.AddTransient<Func<RegistrartePage>>(sp => () => sp.GetRequiredService<RegistrartePage>());
 
 
 #if DEBUG

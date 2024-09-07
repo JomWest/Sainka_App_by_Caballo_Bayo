@@ -1,47 +1,45 @@
 using Sainkadelux.di;
+using Sainkadelux.ViewModels;
 
 namespace Sainkadelux;
 
 public partial class RegistrartePage : ContentPage
 {
-	FirebaseConnect firebaseConnect = new FirebaseConnect();
-
-    private LoginOptionPage loginOptionPage;
-	public RegistrartePage()
+	public RegistrartePage(RegisterViewModel registerViewModel)
 	{
 		InitializeComponent();
-        loginOptionPage = ServiceHelper.GetService<LoginOptionPage>();
-	}
-    private async void Registrar_Clicked(object sender, EventArgs e)
+        BindingContext = registerViewModel;
+        registerViewModel.PropertyChanged += ViewModel_PropertyChanged;
+
+    }
+
+    private async void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
     {
-        string email = CorreoEntry.Text;
-        string nombre = NombreEntry.Text;
-        string password = ContraseñaEntry.Text;
-        string rePassword = ReContraseñaEntry.Text;
-
-        if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(nombre) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(rePassword))
+        // Verificamos si la propiedad que cambió fue ErrorMessage
+        if (e.PropertyName == nameof(RegisterViewModel.ErrorMessage))
         {
-            await DisplayAlert("Error", "Todos los campos son obligatorios.", "OK");
+            var viewModel = (RegisterViewModel)BindingContext;
+
+            // Si hay un mensaje de error, mostramos el DisplayAlert
+            if (!string.IsNullOrEmpty(viewModel.ErrorMessage))
+            {
+                await DisplayAlert("Error", viewModel.ErrorMessage, "OK");
+
+                viewModel.ErrorMessage = string.Empty;
+            }
             return;
         }
 
-        if (password != rePassword)
-        {
-            await DisplayAlert("Error", "Las contraseñas no coinciden.", "OK");
-            return;
+        if(e.PropertyName == nameof(RegisterViewModel.SuccessMessage)){
+            var viewModel = (RegisterViewModel)BindingContext;
+
+            if (!string.IsNullOrEmpty(viewModel.SuccessMessage))
+            {
+                await DisplayAlert("Error", viewModel.SuccessMessage, "OK");
+
+                viewModel.SuccessMessage = string.Empty;
+            }
         }
 
-        try
-        {
-            var userCredential = await firebaseConnect.CrearUsuario(email, password, nombre);
-            await DisplayAlert("Éxito", "Usuario registrado exitosamente.", "OK");
-            await Navigation.PushAsync(loginOptionPage);
-
-  
-        }
-        catch (Exception ex)
-        {
-            await DisplayAlert("Error", $"Hubo un problema al registrar el usuario: {ex.Message}", "OK");
-        }
     }
 }

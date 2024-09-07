@@ -9,5 +9,9 @@ namespace Sainkadelux.Repositories
     public interface INavigationService
     {
         Task NavigateToMenuPageAsync();
+
+        Task NavigateToLoginOptionPageAsync();
+
+        Task NavigateToRegisterPage();
     }
 }
