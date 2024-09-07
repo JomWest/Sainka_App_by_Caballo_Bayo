@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sainkadelux.LoginOptionPage"
+             xmlns:viewModels="clr-namespace:Sainkadelux.ViewModels"
+             x:DataType="viewModels:LoginViewModel"
             NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout Background="#2760DB">
         <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="79" Margin="0,100,0,0"/>
@@ -19,19 +21,19 @@
 
                 <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
                     <HorizontalStackLayout >
-                        <Entry x:Name="CorreoEntry" Placeholder="CORREO" VerticalTextAlignment="Start" HorizontalOptions="Center" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        <Entry x:Name="CorreoEntry" Text="{Binding Email}" Placeholder="CORREO" VerticalTextAlignment="Start" HorizontalOptions="Center" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
                         <Image Source="contras.png" HorizontalOptions="End" Margin="0,5,0,0"/>
                     </HorizontalStackLayout>
                 </Frame>
                 <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
                     <HorizontalStackLayout>
-                        <Entry x:Name="ContraseñaEntry" Placeholder="CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        <Entry x:Name="ContraseñaEntry" Text="{Binding Password}" Placeholder="CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
                         <Image Source="usuarios.png" HorizontalOptions="End" Margin="0,5,0,0"/>
                     </HorizontalStackLayout>
                 </Frame>
                 <Label Text="OLVIDASTE TU CONTRASEÑA?" HorizontalOptions="End" TextColor="Red" Margin="0,-20,20,0" FontSize="12"/>
                 <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,0,0,0"  IsVisible="True">
-                    <Button  Text="continuar" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Clicked="LoginButton_Clicked"/>
+                    <Button  Text="continuar" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Command="{Binding LoginCommand}"/>
                 </Frame>
                 <VerticalStackLayout>
                     <VerticalStackLayout.GestureRecognizers>
@@ -40,9 +42,6 @@
                     <Label Text="No tienes una cuenta?" HorizontalOptions="Center" FontSize="22" TextColor="Grey"/>
                     <Label Text="Regístrate" HorizontalOptions="Center" FontSize="22" TextColor="Grey"/>
                 </VerticalStackLayout>
-           
- 
-               
             </VerticalStackLayout>
         </Frame>
 

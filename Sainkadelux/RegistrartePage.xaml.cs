@@ -1,11 +1,16 @@
+using Sainkadelux.di;
+
 namespace Sainkadelux;
 
 public partial class RegistrartePage : ContentPage
 {
 	FirebaseConnect firebaseConnect = new FirebaseConnect();
+
+    private LoginOptionPage loginOptionPage;
 	public RegistrartePage()
 	{
 		InitializeComponent();
+        loginOptionPage = ServiceHelper.GetService<LoginOptionPage>();
 	}
     private async void Registrar_Clicked(object sender, EventArgs e)
     {
@@ -30,7 +35,7 @@ public partial class RegistrartePage : ContentPage
         {
             var userCredential = await firebaseConnect.CrearUsuario(email, password, nombre);
             await DisplayAlert("Éxito", "Usuario registrado exitosamente.", "OK");
-            await Navigation.PushAsync( new LoginOptionPage());
+            await Navigation.PushAsync(loginOptionPage);
 
   
         }

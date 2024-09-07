@@ -1,57 +1,34 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
+using Sainkadelux.ViewModels;
 
 namespace Sainkadelux
 {
     public partial class LoginOptionPage : ContentPage
     {
-        public LoginOptionPage()
+        public LoginOptionPage(LoginViewModel viewModel)
         {
             InitializeComponent();
+            BindingContext = viewModel;
+            viewModel.PropertyChanged += ViewModel_PropertyChanged;
         }
 
-        private async void LoginButton_Clicked(object sender, EventArgs e)
+        private async void ViewModel_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
-            FirebaseConnect firebaseConnect = new FirebaseConnect();
-            string email = CorreoEntry.Text;
-            string password = ContraseñaEntry.Text;
-
-            try
+            // Verificamos si la propiedad que cambió fue ErrorMessage
+            if (e.PropertyName == nameof(LoginViewModel.ErrorMessage))
             {
+                var viewModel = (LoginViewModel)BindingContext;
 
-                var Credenciales = await firebaseConnect.CargarUsuario(email, password);
-
-                if (Credenciales != null && Credenciales.User != null)
+                // Si hay un mensaje de error, mostramos el DisplayAlert
+                if (!string.IsNullOrEmpty(viewModel.ErrorMessage))
                 {
-                    var Uid = Credenciales.User.Uid;
-                    await Navigation.PushAsync(new MenuPage());
-                }
-                else
-                {
-                    await DisplayAlert("Error", "Las credenciales proporcionadas no son válidas.", "OK");
-                }
-            }
-            catch (Exception ex)
-            {
-                if (ex.Message.Contains("INVALID_LOGIN_CREDENTIALS"))
-                {
-                    await DisplayAlert("Error", "El correo electrónico es incorrecto.", "OK");
-                }
-                if (ex.Message.Contains("MISSING_EMAIL"))
-                {
-                    await DisplayAlert("Error", "El correo electrónico o la contraseña son incorrecto.", "OK");
-                }
-                else if (ex.Message.Contains("MISSING_PASSWORD"))
-                {
-                    await DisplayAlert("Error", "La contraseña es incorrecta.", "OK");
-                }
-                else
-                {
-                    await DisplayAlert("Error", $"Ocurrió un error: {ex.Message}", "OK");
+                    await DisplayAlert("Error", viewModel.ErrorMessage, "OK");
                 }
             }
         }
+
         private async void OnRegistrarTapped(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new RegistrartePage());

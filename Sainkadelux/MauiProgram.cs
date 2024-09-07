@@ -1,5 +1,8 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using Sainkadelux.di;
+using Sainkadelux.Repositories;
+using Sainkadelux.ViewModels;
 
 namespace Sainkadelux
 {
@@ -20,11 +23,22 @@ namespace Sainkadelux
 
                 });
 
+            builder.Services.AddSingleton<IFirebaseAuthRepository, FirebaseAuthRepository>();
+            builder.Services.AddSingleton<INavigationService, NavigationService>();
+            builder.Services.AddSingleton<LoginViewModel>();
+            builder.Services.AddSingleton<LoginOptionPage>();
+            builder.Services.AddSingleton<RegistrartePage>();
+
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
-            return builder.Build();
+            var app = builder.Build();
+
+            ServiceHelper.Initialize(app.Services);
+
+            return app;
         }
     }
 }

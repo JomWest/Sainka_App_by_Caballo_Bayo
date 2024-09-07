@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Sainkadelux.dll" comes first in this list. */
 		"Sainkadelux.dll",
 		"CommunityToolkit.Maui.Camera.dll",
+		"CommunityToolkit.Mvvm.dll",
 		"Firebase.Auth.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",

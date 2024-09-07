@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "g2T/UjTsQ18=",
+  "dgSpecHash": "K2RWJjMxdeo=",
   "success": true,
   "projectFilePath": "D:\\C# Projects\\SainkaGit\\Sainkadelux\\Sainkadelux.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\communitytoolkit.maui.camera\\1.0.4\\communitytoolkit.maui.camera.1.0.4.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\firebaseauthentication.net\\4.1.0\\firebaseauthentication.net.4.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

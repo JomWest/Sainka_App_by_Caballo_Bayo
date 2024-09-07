@@ -1,11 +1,17 @@
+using Sainkadelux.di;
+using Sainkadelux.ViewModels;
+
 namespace Sainkadelux;
 
 public partial class BIenvenida : ContentPage
 {
     private const int TypingSpeed = 35;
+
+    private LoginOptionPage _loginOptionPage;
     public BIenvenida()
 	{
 		InitializeComponent();
+        _loginOptionPage = ServiceHelper.GetService<LoginOptionPage>();
 	}
     private async void OnStartButtonClicked(object sender, EventArgs e)
     {
@@ -35,7 +41,7 @@ public partial class BIenvenida : ContentPage
     private async void OnMenuClicked(object sender, EventArgs e)
     {
 
-        await Navigation.PushAsync(new LoginOptionPage());
+        await Navigation.PushAsync(_loginOptionPage);
 
 
     }
