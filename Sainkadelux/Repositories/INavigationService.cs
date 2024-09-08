@@ -13,5 +13,8 @@ namespace Sainkadelux.Repositories
         Task NavigateToLoginOptionPageAsync();
 
         Task NavigateToRegisterPage();
-    }
+   
+     }
+
+    
 }

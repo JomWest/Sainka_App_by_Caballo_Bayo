@@ -39,5 +39,9 @@ namespace Sainkadelux
         {
             await _navigationService.NavigateToRegisterPage();
         }
+        private async void OnOlvidasteContraseñaTapped(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new OlidasteContraPage());
+        }
     }
 }

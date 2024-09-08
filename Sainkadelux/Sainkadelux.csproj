@@ -62,6 +62,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="NewFolder\**" />
+	  <Compile Remove="NewFolder\**" />
+	  <EmbeddedResource Remove="NewFolder\**" />
+	  <MauiCss Remove="NewFolder\**" />
+	  <MauiXaml Remove="NewFolder\**" />
+	  <None Remove="NewFolder\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Remove="RegitrarLoginPage.xaml.cs" />
 	</ItemGroup>
 
@@ -79,28 +88,41 @@
 	  <None Remove="Resources\Images\a.png" />
 	  <None Remove="Resources\Images\ab.png" />
 	  <None Remove="Resources\Images\al.png" />
+	  <None Remove="Resources\Images\alv.png" />
+	  <None Remove="Resources\Images\av.png" />
 	  <None Remove="Resources\Images\bienvenido.png" />
 	  <None Remove="Resources\Images\camara.png" />
+	  <None Remove="Resources\Images\chech.png" />
 	  <None Remove="Resources\Images\contras.png" />
 	  <None Remove="Resources\Images\e.png" />
 	  <None Remove="Resources\Images\eb.png" />
 	  <None Remove="Resources\Images\el.png" />
+	  <None Remove="Resources\Images\elv.png" />
+	  <None Remove="Resources\Images\ev.png" />
 	  <None Remove="Resources\Images\googlee.png" />
 	  <None Remove="Resources\Images\i.png" />
 	  <None Remove="Resources\Images\ib.png" />
 	  <None Remove="Resources\Images\il.png" />
+	  <None Remove="Resources\Images\ilv.png" />
+	  <None Remove="Resources\Images\iv.png" />
 	  <None Remove="Resources\Images\logint.png" />
 	  <None Remove="Resources\Images\o.png" />
 	  <None Remove="Resources\Images\ob.png" />
 	  <None Remove="Resources\Images\ol.png" />
+	  <None Remove="Resources\Images\olv.png" />
+	  <None Remove="Resources\Images\ov.png" />
 	  <None Remove="Resources\Images\sainkalogo.png" />
 	  <None Remove="Resources\Images\splash.svg" />
 	  <None Remove="Resources\Images\splashpage.png" />
 	  <None Remove="Resources\Images\u.png" />
 	  <None Remove="Resources\Images\ub.png" />
 	  <None Remove="Resources\Images\ul.png" />
+	  <None Remove="Resources\Images\ulv.png" />
 	  <None Remove="Resources\Images\usuarios.png" />
+	  <None Remove="Resources\Images\uv.png" />
 	  <None Remove="Resources\Images\vector.png" />
+	  <None Remove="Resources\Raw\chek.json" />
+	  <None Remove="Resources\Raw\error.json" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -110,6 +132,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="SkiaSharp.Extended.UI.Maui" Version="3.0.0-preview.7" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -126,6 +149,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MenuPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Niveles\Letra a\LetraA.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Niveles\Letra a\LevelPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="OlidasteContraPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="RegistrartePage.xaml">

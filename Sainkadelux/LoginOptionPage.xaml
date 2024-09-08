@@ -6,10 +6,10 @@
              x:DataType="viewModels:LoginViewModel"
             NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout Background="#2760DB">
-        <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="79" Margin="0,100,0,0"/>
+        <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="300" Margin="0,35,0,0"/>
 
 
-        <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" CornerRadius="50" IsVisible="True" VerticalOptions="End"  Margin="0,10,0,0" ZIndex="1" HeightRequest="900">
+        <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" CornerRadius="50" IsVisible="True" VerticalOptions="End"  Margin="0,-110,0,0" ZIndex="1" HeightRequest="900">
             <VerticalStackLayout Margin="0,-20,0,0" Spacing="35" VerticalOptions="Start">
                 <HorizontalStackLayout HorizontalOptions="Center" Margin="0,20,0,0">
                     <Label Text="LOG" FontSize="42" FontAttributes="Bold" FontFamily="PoppinsBold"/>
@@ -21,17 +21,21 @@
 
                 <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
                     <HorizontalStackLayout >
-                        <Entry x:Name="CorreoEntry" Text="{Binding Email}" Placeholder="CORREO" VerticalTextAlignment="Start" HorizontalOptions="Center" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        <Entry x:Name="CorreoEntry" Text="{Binding Email}" Placeholder="CORREO" VerticalTextAlignment="Start" HorizontalOptions="Center" HorizontalTextAlignment="Start" FontSize="18" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
                         <Image Source="contras.png" HorizontalOptions="End" Margin="0,5,0,0"/>
                     </HorizontalStackLayout>
                 </Frame>
                 <Frame CornerRadius="50" WidthRequest="340" HeightRequest="65" Padding="10" BackgroundColor="LightGray">
                     <HorizontalStackLayout>
-                        <Entry x:Name="ContraseñaEntry" Text="{Binding Password}" Placeholder="CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="20" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
+                        <Entry x:Name="ContraseñaEntry" Text="{Binding Password}" Placeholder="CONTRASEÑA" VerticalTextAlignment="Start" HorizontalTextAlignment="Start" FontSize="18" Margin="25,0,0,-20" TextColor="Black" PlaceholderColor="Black" WidthRequest="240"/>
                         <Image Source="usuarios.png" HorizontalOptions="End" Margin="0,5,0,0"/>
                     </HorizontalStackLayout>
                 </Frame>
-                <Label Text="OLVIDASTE TU CONTRASEÑA?" HorizontalOptions="End" TextColor="Red" Margin="0,-20,20,0" FontSize="12"/>
+                <Label Text="OLVIDASTE TU CONTRASEÑA?" HorizontalOptions="End" TextColor="Red" Margin="0,-20,20,0" FontSize="12">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnOlvidasteContraseñaTapped"/>
+                    </Label.GestureRecognizers>
+                </Label>
                 <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,0,0,0"  IsVisible="True">
                     <Button  Text="continuar" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Command="{Binding LoginCommand}"/>
                 </Frame>

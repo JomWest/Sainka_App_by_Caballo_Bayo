@@ -37,12 +37,10 @@ public partial class BIenvenida : ContentPage
         }
         Continuarbtn.IsVisible = true;
     }
-    
+
     private async void OnMenuClicked(object sender, EventArgs e)
     {
-
-        await Navigation.PushAsync(_loginOptionPage);
-
+        Application.Current.MainPage = new NavigationPage(_loginOptionPage);
 
     }
 }
