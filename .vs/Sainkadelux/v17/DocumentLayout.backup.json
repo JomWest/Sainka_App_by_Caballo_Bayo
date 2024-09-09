@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\firebaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\firebaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\ultimolevelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\niveles\\letra a\\ultimolevelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\repositories\\firebaseauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\repositories\\firebaseauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\ultimolevelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -33,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\levelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\niveles\\letra a\\levelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\niveles\\letra a\\letraa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -76,14 +88,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Azazel\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\firebaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\firebaseconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\menupage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -133,11 +137,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CamaraPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\CamaraPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\CamaraPage.xaml.cs",
@@ -146,51 +150,24 @@
               "ViewState": "AgIAACgAAAAAAAAAAAAQwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T21:25:52.29Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UltimoLevelPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
               "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAuwEQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T01:31:26.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CamaraPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\CamaraPage.xaml",
-              "RelativeDocumentMoniker": "Sainkadelux\\CamaraPage.xaml",
-              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\CamaraPage.xaml",
-              "RelativeToolTip": "Sainkadelux\\CamaraPage.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T00:17:38.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UltimoLevelPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
-              "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
-              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
-              "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T00:10:40.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "LevelPage2.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml.cs",
@@ -198,12 +175,11 @@
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T22:04:37.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T22:04:37.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "LevelPage2.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml",
@@ -211,12 +187,11 @@
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\LevelPage2.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T21:39:44.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T21:39:44.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\MauiProgram.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\MauiProgram.cs",
@@ -228,20 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "LevelPage1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml.cs",
               "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml.cs",
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T03:55:20.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "LetraA.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LetraA.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LetraA.xaml.cs",
@@ -253,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "BIenvenida.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\BIenvenida.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\BIenvenida.xaml.cs",
@@ -265,7 +240,70 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FirebaseConnect.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\FirebaseConnect.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\FirebaseConnect.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\FirebaseConnect.cs",
+              "RelativeToolTip": "Sainkadelux\\FirebaseConnect.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwG4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T21:25:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "FirebaseAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Repositories\\FirebaseAuthRepository.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\Repositories\\FirebaseAuthRepository.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Repositories\\FirebaseAuthRepository.cs",
+              "RelativeToolTip": "Sainkadelux\\Repositories\\FirebaseAuthRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T03:24:00.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeavelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LeavelPage.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\LeavelPage.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LeavelPage.xaml",
+              "RelativeToolTip": "Sainkadelux\\LeavelPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-07T23:49:45.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UltimoLevelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T00:10:40.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CamaraPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\CamaraPage.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\CamaraPage.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\CamaraPage.xaml",
+              "RelativeToolTip": "Sainkadelux\\CamaraPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T00:17:38.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "LoginOptionPage.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LoginOptionPage.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\LoginOptionPage.xaml",
@@ -273,24 +311,11 @@
               "RelativeToolTip": "Sainkadelux\\LoginOptionPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAC1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T21:06:58.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T21:06:58.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LeavelPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LeavelPage.xaml",
-              "RelativeDocumentMoniker": "Sainkadelux\\LeavelPage.xaml",
-              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LeavelPage.xaml",
-              "RelativeToolTip": "Sainkadelux\\LeavelPage.xaml",
-              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBEAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T23:49:45.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "LeavelPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LeavelPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\LeavelPage.xaml.cs",
@@ -302,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "LevelPage1.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml",
@@ -310,12 +335,11 @@
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\LevelPage1.xaml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T03:21:42.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T03:21:42.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LetraA.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Niveles\\Letra a\\LetraA.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\Niveles\\Letra a\\LetraA.xaml",
@@ -323,12 +347,11 @@
               "RelativeToolTip": "Sainkadelux\\Niveles\\Letra a\\LetraA.xaml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-07T23:47:18.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T23:47:18.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "splash.svg",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Resources\\Splash\\splash.svg",
               "RelativeDocumentMoniker": "Sainkadelux\\Resources\\Splash\\splash.svg",
@@ -340,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "chek.json",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Resources\\Raw\\chek.json",
               "RelativeDocumentMoniker": "Sainkadelux\\Resources\\Raw\\chek.json",
@@ -352,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "BIenvenida.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\BIenvenida.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\BIenvenida.xaml",
@@ -364,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "MenuPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\MenuPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\MenuPage.xaml.cs",
@@ -376,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\ViewModels\\RegisterViewModel.cs",
@@ -388,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "DocumentMoniker": "C:\\Users\\Azazel\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240607001\\buildTransitive\\Microsoft.UI.Xaml.Markup.Compiler.interop.targets",
@@ -400,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\ViewModels\\LoginViewModel.cs",
@@ -412,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ServiceHelper.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\di\\ServiceHelper.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\di\\ServiceHelper.cs",
@@ -424,19 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FirebaseConnect.cs",
-              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\FirebaseConnect.cs",
-              "RelativeDocumentMoniker": "Sainkadelux\\FirebaseConnect.cs",
-              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\FirebaseConnect.cs",
-              "RelativeToolTip": "Sainkadelux\\FirebaseConnect.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-07T21:25:16.908Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "INavigationService.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Repositories\\INavigationService.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Repositories\\INavigationService.cs",
@@ -448,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "NavigationService.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\Repositories\\NavigationService.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\Repositories\\NavigationService.cs",
@@ -460,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MenuPage.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\MenuPage.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\MenuPage.xaml",
@@ -472,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "OlidasteContraPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\OlidasteContraPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\OlidasteContraPage.xaml.cs",
@@ -484,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "OlidasteContraPage.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\OlidasteContraPage.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\OlidasteContraPage.xaml",
@@ -496,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "RegistrartePage.xaml",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\RegistrartePage.xaml",
               "RelativeDocumentMoniker": "Sainkadelux\\RegistrartePage.xaml",
@@ -508,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "LoginOptionPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\LoginOptionPage.xaml.cs",
               "RelativeDocumentMoniker": "Sainkadelux\\LoginOptionPage.xaml.cs",

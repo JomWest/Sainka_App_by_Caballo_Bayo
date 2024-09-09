@@ -35,20 +35,71 @@ namespace Sainkadelux
 
             
         }
+        public async Task<UserCredential> CrearUsuario(string email, string password, string nombre)
+        {
+            var cliente = ConectarFirebase();
+            var userCredential = await cliente.CreateUserWithEmailAndPasswordAsync(email, password, nombre);
+
+            // Obtener UID del usuario
+            string userId = userCredential.User.Uid;
+
+            // Crear una entrada en la base de datos para este usuario
+            await CrearEntradaUsuarioEnBaseDeDatos(userId, email);
+
+            return userCredential;
+        }
 
         public async Task<UserCredential> CargarUsuario(string email, string password)
         {
             var cliente = ConectarFirebase();
             var userCredential = await cliente.SignInWithEmailAndPasswordAsync(email, password);
+            var userId = userCredential.User.Uid;
+            Preferences.Set("userId", userId);
             return userCredential;
+        }
+        public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string email)
+        {
+            var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}.json";
+
+            var payload = new
+            {
+                email = email,
+                progreso = new { nivel = 1 } // Progreso inicial
+            };
+
+            var jsonPayload = JsonConvert.SerializeObject(payload);
+            var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PutAsync(requestUri, content);
+            response.EnsureSuccessStatusCode();
         }
 
-        public async Task<UserCredential> CrearUsuario(string email, string password, string nombre)
+        public async Task GuardarProgreso(string userId, int nivel)
         {
-            var cliente = ConectarFirebase();
-            var userCredential = await cliente.CreateUserWithEmailAndPasswordAsync(email, password, nombre);
-            return userCredential;
+            var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}/progreso.json";
+
+            var payload = new
+            {
+                nivel = nivel
+            };
+
+            var jsonPayload = JsonConvert.SerializeObject(payload);
+            var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+            var response = await _httpClient.PutAsync(requestUri, content);
+            response.EnsureSuccessStatusCode();
         }
+
+        public async Task<int> ObtenerProgreso(string userId)
+        {
+            var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}/progreso.json";
+
+            var response = await _httpClient.GetStringAsync(requestUri);
+            var progreso = JsonConvert.DeserializeObject<dynamic>(response);
+
+            return progreso?.nivel ?? 1; 
+        }
+
 
         private FirebaseAuthClient ConectarFirebase()
         {
