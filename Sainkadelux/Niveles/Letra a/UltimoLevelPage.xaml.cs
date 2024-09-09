@@ -1,4 +1,5 @@
 using CommunityToolkit.Maui.Views;
+using Microsoft.Maui.Storage;
 using Newtonsoft.Json.Linq;
 using SkiaSharp.Extended.UI.Controls;
 
@@ -10,6 +11,11 @@ public partial class UltimoLevelPage : ContentPage
     private HttpClient _httpClient;
     string _prediction;
     private bool _isCapturing = true;
+
+    private readonly string userId = GlobalUser.UserId;
+
+
+    private readonly FirebaseConnect _firebase = new FirebaseConnect();
 
     public UltimoLevelPage()
     {
@@ -83,7 +89,7 @@ public partial class UltimoLevelPage : ContentPage
         }
     }
 
-    private void VerificarPrediccion()
+    private async void VerificarPrediccion()
     {
 
         if (_prediction == "A")
@@ -91,11 +97,16 @@ public partial class UltimoLevelPage : ContentPage
 
             LevelStack.IsVisible = false;
 
-
             CheckFrame.IsVisible = true;
             SKLottieView fireworksAnimation = (SKLottieView)FindByName("fireworksAnimation");
             if (fireworksAnimation != null)
             {
+                if(GlobalUser.currentLevel == 1)
+                {
+                    var newLevel = GlobalUser.currentLevel + 1;
+                    await _firebase.GuardarProgreso(userId, newLevel);
+                }
+                
                 fireworksAnimation.IsVisible = true;
                 _isCapturing = false;
             }

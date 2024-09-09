@@ -57,6 +57,7 @@ namespace Sainkadelux
             Preferences.Set("userId", userId);
             return userCredential;
         }
+
         public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string email)
         {
             var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}.json";

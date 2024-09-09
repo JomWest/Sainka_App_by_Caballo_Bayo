@@ -25,13 +25,11 @@ namespace Sainkadelux.Repositories
         public async Task SendPasswordResetEmailAsync(string email)
         {
             await _firebaseConnect.EnviarCorreoRestablecimientoContraseña(email);
-
         }
 
         public async Task<UserCredential> SignInAsync(string email, string password)
         {
             return await _firebaseConnect.CargarUsuario(email, password);
-
         }
     }
 }

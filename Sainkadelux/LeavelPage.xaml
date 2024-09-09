@@ -8,7 +8,7 @@
             <VerticalStackLayout Padding="20" Spacing="30">
                 <Frame WidthRequest="350" HeightRequest="100" CornerRadius="35" Margin="0,0,0,0" Padding="20" BackgroundColor="#00F1AF" BorderColor="Transparent" >
                     <VerticalStackLayout HorizontalOptions="Center">
-                        <Label Text="Nivel 1" FontSize="22" HorizontalTextAlignment="Center" FontFamily="PoppinsLight"/>
+                        <Label x:Name="lblLevel" Text="Nivel 1" FontSize="22" HorizontalTextAlignment="Center" FontFamily="PoppinsLight"/>
                         <Label Text="El abecedario" FontSize="20" FontFamily="PoppinsLight"/>
                     </VerticalStackLayout>
                 </Frame>

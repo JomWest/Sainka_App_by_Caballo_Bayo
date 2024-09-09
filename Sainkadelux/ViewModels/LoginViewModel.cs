@@ -30,8 +30,8 @@ namespace Sainkadelux.ViewModels
                 var credentials = await firebaseAuthRepository.SignInAsync(Email, Password);
                 if (credentials != null && credentials.User != null)
                 {
+                    GlobalUser.UserId = credentials.User.Uid;
                    await navigationService.NavigateToMenuPageAsync();
-
                 }
                 else
                 {

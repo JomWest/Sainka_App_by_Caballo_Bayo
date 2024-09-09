@@ -1,4 +1,3 @@
-using static Android.Provider.MediaStore;
 
 namespace Sainkadelux.Niveles.Letra_a;
 

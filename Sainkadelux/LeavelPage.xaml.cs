@@ -1,4 +1,5 @@
 using Sainkadelux.Niveles.Letra_a;
+using Sainkadelux.Repositories;
 
 namespace Sainkadelux;
 
@@ -11,6 +12,9 @@ public partial class LeavelPage : ContentPage
     private string[] imagesU = { "ub.png", "ul.png" };
     private int currentImageIndex = 0;
 
+    private readonly string _userId = GlobalUser.UserId;
+
+    private readonly FirebaseConnect _firebase;
     public LeavelPage()
 	{
 
@@ -20,10 +24,31 @@ public partial class LeavelPage : ContentPage
         ChangeImageWithAnimationI();
         ChangeImageWithAnimationO();
         ChangeImageWithAnimationU();
+
+        _firebase = new FirebaseConnect();
+
+        getCurrentProgress();
     }
+
+    private async void getCurrentProgress()
+    {
+        var level = await _firebase.ObtenerProgreso(_userId);
+
+        GlobalUser.currentLevel = level;
+
+        lblLevel.Text = $"Nivel {level.ToString()}";
+    }
+
     private async void OnImageTapped(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new LetraA());
+        if(GlobalUser.currentLevel != 1)
+        {
+            await DisplayAlert("Nivel Superado", "Ya has finalizado este nivel", "OK");
+        }
+        else
+        {
+            await Navigation.PushAsync(new LetraA());
+        }
 
     }
     private async void ChangeImageWithAnimation()
@@ -35,7 +60,6 @@ public partial class LeavelPage : ContentPage
 
             currentImageIndex = (currentImageIndex + 1) % images.Length; 
             animatedImage.Source = images[currentImageIndex];
-
 
             await animatedImage.FadeTo(1, 500);
 
