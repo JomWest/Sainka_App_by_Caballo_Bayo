@@ -1,3 +1,5 @@
+using Sainkadelux.Niveles.Letra_a;
+
 namespace Sainkadelux;
 
 public partial class LeavelPage : ContentPage
@@ -21,8 +23,8 @@ public partial class LeavelPage : ContentPage
     }
     private async void OnImageTapped(object sender, EventArgs e)
     {
-        AnimatedFrame.IsVisible = true;
-        await AnimatedFrame.TranslateTo(0, 0, 1000, Easing.CubicInOut);
+        await Navigation.PushAsync(new LetraA());
+
     }
     private async void ChangeImageWithAnimation()
     {

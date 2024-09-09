@@ -16,9 +16,9 @@
                 <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
                     <Frame HasShadow="True" Padding="40"  WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="0,0,150,0">
                         <Image x:Name="animatedImage" Source="a.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center" >
-                            <!--<Image.GestureRecognizers>
+                            <Image.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="OnImageTapped"/>
-                            </Image.GestureRecognizers>-->
+                            </Image.GestureRecognizers>
                         </Image>
                     </Frame>
                 </VerticalStackLayout>
@@ -70,54 +70,6 @@
             </VerticalStackLayout>
         </ScrollView>
 
-        <!--#region Frame animado-->
-        <Frame x:Name="AnimatedFrame"
-           Padding="20"
-           BackgroundColor="White"
-           CornerRadius="50"
-           IsVisible="False"
-           VerticalOptions="End"
-           TranslationY="0" 
-           Margin="0,0,0,-200"
-           ZIndex="2"
-           HeightRequest="800"
-           HorizontalOptions="FillAndExpand">
-
-            <VerticalStackLayout Margin="0,20,0,0">
-                <HorizontalStackLayout HorizontalOptions="Center">
-                    <Label Text="Aprenda la vocal " HorizontalOptions="Center" FontSize="24" FontFamily="PoppinsBold"/>
-                    <Image Source="a.png" WidthRequest="30" Margin="0,0,0,10"/>
-                </HorizontalStackLayout>
-
-                <Label x:Name="WelcomeLabel"
-                Text="En este nivel aprenderás a hacer la vocal 'A' en lenguaje de señas. La cámara del teléfono verificará si la haces correctamente."
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                HorizontalTextAlignment="Center"
-                VerticalTextAlignment="Center"
-                LineBreakMode="WordWrap"
-                Padding="10"
-               FontSize="16"
-                TextColor="Black"
-                BackgroundColor="White"
-                Margin="0,40,0,0"/>
-                <Frame x:Name="Continuarbtn"
-                   Padding="0"
-                   CornerRadius="50"
-                   WidthRequest="280"
-                   HeightRequest="70"
-                   Margin="0,20,0,0"
-                   IsVisible="true">
-                    <Button Text="Continuar"
-                        CharacterSpacing="1"
-                        FontSize="24"
-                        BackgroundColor="#00F1AF"
-                        TextColor="Black"
-                        Margin="0,0,0,0"
-                            WidthRequest="300" HeightRequest="100"/>
-                </Frame>
-            </VerticalStackLayout>
-        </Frame>
-        <!--#endregion-->
+    
     </Grid>
 </ContentPage>

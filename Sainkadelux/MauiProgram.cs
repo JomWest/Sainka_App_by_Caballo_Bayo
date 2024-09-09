@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using Sainkadelux.di;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 using Sainkadelux.Repositories;
 using Sainkadelux.ViewModels;
 
@@ -14,6 +15,7 @@ namespace Sainkadelux
             builder
                 .UseMauiApp<App>()
                  .UseMauiCommunityToolkitCamera()
+                 .UseSkiaSharp()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

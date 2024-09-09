@@ -5,29 +5,31 @@
              NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout>
         <Frame BackgroundColor="#2760DB" CornerRadius="50" HeightRequest="200" WidthRequest="400" Margin="0,-70,0,0">
-            <Image Source="sainkalogo.png" WidthRequest="220" HeightRequest="50" Margin="0,60,0,0"/>
+            <Image Source="sainkalogo.png" WidthRequest="250" HeightRequest="250" Margin="0,60,0,0"/>
         </Frame>
-        <VerticalStackLayout >
-            <Frame BackgroundColor="#00F1AF" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                       Tapped="OnCameraPageTapped" 
-                       NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-                <Image Source="camara.png" WidthRequest="78" HeightRequest="78"/>
-            </Frame>
-            <Label Text="Señas a texto" HorizontalOptions="Center" Margin="15" FontSize="24"/>
-        </VerticalStackLayout>
-        <VerticalStackLayout Margin="0,-70,0,0">
-            <Frame BackgroundColor="#2760DB" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                      Tapped="OnLevelPageTapped" 
-                      NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-                <Image Source="vector.png" WidthRequest="78" HeightRequest="78"/>
-            </Frame>
-            <Label Text="Aprende lenguaje de señas" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+        <VerticalStackLayout Margin="0,-50,0,0">
+            <VerticalStackLayout >
+                <Frame BackgroundColor="#00F1AF" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer
+               Tapped="OnCameraPageTapped" 
+               NumberOfTapsRequired="1" />
+                    </Frame.GestureRecognizers>
+                    <Image Source="camara.png" WidthRequest="78" HeightRequest="78"/>
+                </Frame>
+                <Label Text="Señas a texto" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+            </VerticalStackLayout>
+            <VerticalStackLayout Margin="0,-70,0,0">
+                <Frame BackgroundColor="#2760DB" WidthRequest="160" HeightRequest="170" CornerRadius="70" Margin="0,100,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer
+              Tapped="OnLevelPageTapped" 
+              NumberOfTapsRequired="1" />
+                    </Frame.GestureRecognizers>
+                    <Image Source="vector.png" WidthRequest="78" HeightRequest="78"/>
+                </Frame>
+                <Label Text="Aprende lenguaje de señas" HorizontalOptions="Center" Margin="15" FontSize="24"/>
+            </VerticalStackLayout>
         </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>

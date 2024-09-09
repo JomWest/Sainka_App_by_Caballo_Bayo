@@ -8,11 +8,14 @@ public partial class MenuPage : ContentPage
 	}
     private async void OnCameraPageTapped(object sender, EventArgs e)
     {
+
         await Navigation.PushAsync(new CamaraPage());
+
     }
     private async void OnLevelPageTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new LeavelPage());
+     
     }
 
 }

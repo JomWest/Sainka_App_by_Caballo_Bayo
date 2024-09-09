@@ -31,6 +31,7 @@ namespace Sainkadelux.ViewModels
                 if (credentials != null && credentials.User != null)
                 {
                    await navigationService.NavigateToMenuPageAsync();
+
                 }
                 else
                 {
