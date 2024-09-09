@@ -43,7 +43,7 @@
                     <VerticalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnRegistrarTapped"/>
                     </VerticalStackLayout.GestureRecognizers>
-                    <Label Text="No tienes una cuenta?" HorizontalOptions="Center" FontSize="22" TextColor="Grey"/>
+                    <Label Text="¿No tienes una cuenta?" HorizontalOptions="Center" FontSize="22" TextColor="Grey"/>
                     <Label Text="Regístrate" HorizontalOptions="Center" FontSize="22" TextColor="Grey"/>
                 </VerticalStackLayout>
             </VerticalStackLayout>

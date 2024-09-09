@@ -105,6 +105,8 @@ public partial class UltimoLevelPage : ContentPage
                 {
                     var newLevel = GlobalUser.currentLevel + 1;
                     await _firebase.GuardarProgreso(userId, newLevel);
+                    GlobalUser.currentLevel = newLevel;
+                    cameraView.IsEnabled = false;
                 }
                 
                 fireworksAnimation.IsVisible = true;
