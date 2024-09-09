@@ -28,13 +28,13 @@
                     <Frame CornerRadius="20" BorderColor="#00F1AF" WidthRequest="150" HeightRequest="150" BackgroundColor="White">
                         <Image Source="ab.png"/>
                     </Frame>
-                    <Label  Text="Recrea con tu mano la seña que aparece en pantalla y colócala frente a la cámara para superar este último nivel." HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="20" TextColor="White" Margin="0,0,0,0" FontFamily="PoppinsLigth"/>
+                    <Label Text="Recrea con tu mano la seña que aparece en pantalla y colócala frente a la cámara para superar este último nivel." HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="20" TextColor="White" Margin="0,0,0,0" FontFamily="PoppinsLigth"/>
                     <Image  Grid.Row="2"  x:Name="capturedImage" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="End" Margin="0,-20,280,0"/>
                 </VerticalStackLayout>
             </Frame>
      
         </VerticalStackLayout>
-        <skia:SKLottieView Source="fireworks.json" RepeatCount="-1" HeightRequest="400" WidthRequest="400"  Margin="0,-390,0,0" IsVisible="False"/>
+        <skia:SKLottieView x:Name="fireworksAnimation" Source="fireworks.json" RepeatCount="-1" HeightRequest="400" WidthRequest="400"  Margin="0,-390,0,0" IsVisible="False"/>
         <Frame x:Name="CheckFrame" WidthRequest="300" HeightRequest="450" Margin="0,0,0,0" CornerRadius="25" IsVisible="False" Padding="0" BorderColor="#00F1AF">
             <VerticalStackLayout Spacing="10">
                 <skia:SKLottieView Source="chek.json" RepeatCount="-1" HeightRequest="300" WidthRequest="300"  Margin="0,-50,0,0"/>

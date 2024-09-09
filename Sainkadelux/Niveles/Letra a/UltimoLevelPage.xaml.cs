@@ -1,4 +1,5 @@
 using CommunityToolkit.Maui.Views;
+using Newtonsoft.Json.Linq;
 using SkiaSharp.Extended.UI.Controls;
 
 namespace Sainkadelux.Niveles.Letra_a;
@@ -63,9 +64,12 @@ public partial class UltimoLevelPage : ContentPage
             var response = await _httpClient.PostAsync("http://162.215.132.36:5000/predict", content);
             var result = await response.Content.ReadAsStringAsync();
 
+            var jsonResult = JObject.Parse(result);
+            var prediction = jsonResult["prediccion"].ToString();
+
             Dispatcher.Dispatch(() =>
             {
-                _prediction = $"{result}";
+                _prediction = prediction;
                 VerificarPrediccion();
             });
         }
@@ -82,17 +86,24 @@ public partial class UltimoLevelPage : ContentPage
     private void VerificarPrediccion()
     {
 
-        if (_prediction == "prediccion': a")
+        if (_prediction == "A")
         {
 
             LevelStack.IsVisible = false;
 
 
             CheckFrame.IsVisible = true;
-            SKLottieView fireworksAnimation = (SKLottieView)FindByName("SKLottieView");
-            fireworksAnimation.IsVisible = true;
+            SKLottieView fireworksAnimation = (SKLottieView)FindByName("fireworksAnimation");
+            if (fireworksAnimation != null)
+            {
+                fireworksAnimation.IsVisible = true;
+                _isCapturing = false;
+            }
+            else
+            {
+                Console.WriteLine("El elemento fireworksAnimation no fue encontrado.");
+            }
 
-            _isCapturing = false;
         }
     }
 }
