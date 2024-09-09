@@ -87,6 +87,7 @@
 	  <None Remove="Resources\Fonts\Poppins-Light.ttf" />
 	  <None Remove="Resources\Images\a.png" />
 	  <None Remove="Resources\Images\ab.png" />
+	  <None Remove="Resources\Images\abl.png" />
 	  <None Remove="Resources\Images\al.png" />
 	  <None Remove="Resources\Images\alv.png" />
 	  <None Remove="Resources\Images\av.png" />
@@ -96,18 +97,21 @@
 	  <None Remove="Resources\Images\contras.png" />
 	  <None Remove="Resources\Images\e.png" />
 	  <None Remove="Resources\Images\eb.png" />
+	  <None Remove="Resources\Images\ebl.png" />
 	  <None Remove="Resources\Images\el.png" />
 	  <None Remove="Resources\Images\elv.png" />
 	  <None Remove="Resources\Images\ev.png" />
 	  <None Remove="Resources\Images\googlee.png" />
 	  <None Remove="Resources\Images\i.png" />
 	  <None Remove="Resources\Images\ib.png" />
+	  <None Remove="Resources\Images\ibl.png" />
 	  <None Remove="Resources\Images\il.png" />
 	  <None Remove="Resources\Images\ilv.png" />
 	  <None Remove="Resources\Images\iv.png" />
 	  <None Remove="Resources\Images\logint.png" />
 	  <None Remove="Resources\Images\o.png" />
 	  <None Remove="Resources\Images\ob.png" />
+	  <None Remove="Resources\Images\obl.png" />
 	  <None Remove="Resources\Images\ol.png" />
 	  <None Remove="Resources\Images\olv.png" />
 	  <None Remove="Resources\Images\ov.png" />
@@ -116,6 +120,7 @@
 	  <None Remove="Resources\Images\splashpage.png" />
 	  <None Remove="Resources\Images\u.png" />
 	  <None Remove="Resources\Images\ub.png" />
+	  <None Remove="Resources\Images\ubl.png" />
 	  <None Remove="Resources\Images\ul.png" />
 	  <None Remove="Resources\Images\ulv.png" />
 	  <None Remove="Resources\Images\usuarios.png" />
@@ -123,6 +128,7 @@
 	  <None Remove="Resources\Images\vector.png" />
 	  <None Remove="Resources\Raw\chek.json" />
 	  <None Remove="Resources\Raw\error.json" />
+	  <None Remove="Resources\Raw\fireworks.json" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -155,6 +161,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Niveles\Letra a\LevelPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Niveles\Letra a\LevelPage2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Niveles\Letra a\UltimoLevelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="OlidasteContraPage.xaml">

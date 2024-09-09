@@ -8,7 +8,7 @@
         <Label Text="Elige la respuesta correcta" FontSize="22" FontFamily="PoppinsBold" HorizontalTextAlignment="Center" Margin="0,40,0,0"/>
         <VerticalStackLayout Spacing="10">
             <Frame CornerRadius="25" WidthRequest="194" HeightRequest="194" BackgroundColor="#2760DB" Margin="0,150,0,0">
-                <Image x:Name="animatedImageA" Source="av.png" WidthRequest="100" HeightRequest="100"/>
+                <Image x:Name="animatedImageA" Source="abl.png" WidthRequest="100" HeightRequest="100"/>
             </Frame>
             <Label Text="¿Qué vocal es esta?" HorizontalTextAlignment="Center" FontSize="20" FontFamily="PoppinsLight"/>
         </VerticalStackLayout>
@@ -55,7 +55,7 @@
                     RepeatCount="-1" HeightRequest="300" WidthRequest="300"  Margin="0,-50,0,0"/>
                 <Label  Text="Parece que has reconocido muy bien la seña y ya estas listo para la siguiente " HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="16" TextColor="Black" Margin="0,-50,0,0" FontFamily="PoppinsLigth"/>
                 <Frame Padding="1" CornerRadius="25" BorderColor="Transparent">
-                    <Button Text="Siguiente reto!" BackgroundColor="#00F1AF" FontSize="22" WidthRequest="240" HeightRequest="50" Clicked="ReintenatrClicked" FontFamily="PoppinsLight" TextColor="White"/>
+                    <Button Text="Siguiente reto!" BackgroundColor="#00F1AF" FontSize="22" WidthRequest="240" HeightRequest="50" Clicked="SiguienteRetoCliecked" FontFamily="PoppinsLight" TextColor="White"/>
                 </Frame>
               
             </VerticalStackLayout>

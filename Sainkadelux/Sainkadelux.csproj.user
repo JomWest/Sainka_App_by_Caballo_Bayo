@@ -32,6 +32,12 @@
     <MauiXaml Update="Niveles\Letra a\LevelPage1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Niveles\Letra a\LevelPage2.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Niveles\Letra a\UltimoLevelPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="OlidasteContraPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
