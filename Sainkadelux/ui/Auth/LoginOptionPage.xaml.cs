@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
-using Sainkadelux.Repositories;
+using Sainkadelux.domain.Repositories;
 using Sainkadelux.ViewModels;
 
 namespace Sainkadelux

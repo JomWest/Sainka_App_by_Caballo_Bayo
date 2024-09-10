@@ -1,11 +1,12 @@
 ﻿using Sainkadelux.di;
+using Sainkadelux.domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sainkadelux.Repositories
+namespace Sainkadelux.data.Repositories
 {
     public class NavigationService(Func<LoginOptionPage> loginOptionPageFactory, Func<RegistrartePage> registrartePageFactorty) : INavigationService
     {

@@ -6,7 +6,7 @@ using Firebase.Auth.Providers;
 using Firebase.Auth;
 using Newtonsoft.Json;
 
-namespace Sainkadelux
+namespace Sainkadelux.data.Services
 {
     class FirebaseConnect
     {
@@ -24,16 +24,16 @@ namespace Sainkadelux
             var payload = new
             {
                 requestType = "PASSWORD_RESET",
-                email = email
+                email
             };
 
             var jsonPayload = JsonConvert.SerializeObject(payload);
             var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
 
             var response = await _httpClient.PostAsync(requestUri, content);
-            response.EnsureSuccessStatusCode(); 
+            response.EnsureSuccessStatusCode();
 
-            
+
         }
         public async Task<UserCredential> CrearUsuario(string email, string password, string nombre)
         {
@@ -44,7 +44,7 @@ namespace Sainkadelux
             string userId = userCredential.User.Uid;
 
             // Crear una entrada en la base de datos para este usuario
-            await CrearEntradaUsuarioEnBaseDeDatos(userId, nombre,email);
+            await CrearEntradaUsuarioEnBaseDeDatos(userId, nombre, email);
 
             return userCredential;
         }
@@ -58,14 +58,14 @@ namespace Sainkadelux
             return userCredential;
         }
 
-        public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string name,string email)
+        public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string name, string email)
         {
             var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}.json";
 
             var payload = new
             {
-                name = name,
-                email = email,
+                name,
+                email,
                 progreso = new { nivel = 1 } // Progreso inicial
             };
 
@@ -82,7 +82,7 @@ namespace Sainkadelux
 
             var payload = new
             {
-                nivel = nivel
+                nivel
             };
 
             var jsonPayload = JsonConvert.SerializeObject(payload);
@@ -99,7 +99,7 @@ namespace Sainkadelux
             var response = await _httpClient.GetStringAsync(requestUri);
             var progreso = JsonConvert.DeserializeObject<dynamic>(response);
 
-            return progreso?.nivel ?? 1; 
+            return progreso?.nivel ?? 1;
         }
 
 

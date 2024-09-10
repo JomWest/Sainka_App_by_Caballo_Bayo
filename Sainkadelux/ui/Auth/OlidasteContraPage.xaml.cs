@@ -1,3 +1,5 @@
+using Sainkadelux.data.Services;
+
 namespace Sainkadelux;
 
 public partial class OlidasteContraPage : ContentPage

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sainkadelux.Repositories
+namespace Sainkadelux.domain.Repositories
 {
     public interface IFirebaseAuthRepository
     {

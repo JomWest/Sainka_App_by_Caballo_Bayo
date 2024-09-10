@@ -2,8 +2,9 @@
 using Microsoft.Extensions.Logging;
 using Sainkadelux.di;
 using SkiaSharp.Views.Maui.Controls.Hosting;
-using Sainkadelux.Repositories;
 using Sainkadelux.ViewModels;
+using Sainkadelux.data.Repositories;
+using Sainkadelux.domain.Repositories;
 
 namespace Sainkadelux
 {

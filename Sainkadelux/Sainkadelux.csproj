@@ -62,15 +62,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NewFolder\**" />
-	  <Compile Remove="NewFolder\**" />
-	  <EmbeddedResource Remove="NewFolder\**" />
-	  <MauiCss Remove="NewFolder\**" />
-	  <MauiXaml Remove="NewFolder\**" />
-	  <None Remove="NewFolder\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <Compile Remove="RegitrarLoginPage.xaml.cs" />
 	</ItemGroup>
 
@@ -142,37 +133,37 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="BIenvenida.xaml">
+	  <MauiXaml Update="ui\Welcome\BIenvenida.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="CamaraPage.xaml">
+	  <MauiXaml Update="ui\cameraView\CamaraPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LeavelPage.xaml">
+	  <MauiXaml Update="ui\Niveles\LeavelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="LoginOptionPage.xaml">
+	  <MauiXaml Update="ui\Auth\LoginOptionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="MenuPage.xaml">
+	  <MauiXaml Update="ui\Welcome\MenuPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Niveles\Letra a\LetraA.xaml">
+	  <MauiXaml Update="ui\Niveles\Letra a\LetraA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Niveles\Letra a\LevelPage1.xaml">
+	  <MauiXaml Update="ui\Niveles\Letra a\LevelPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Niveles\Letra a\LevelPage2.xaml">
+	  <MauiXaml Update="ui\Niveles\Letra a\LevelPage2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Niveles\Letra a\UltimoLevelPage.xaml">
+	  <MauiXaml Update="ui\Niveles\Letra a\UltimoLevelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="OlidasteContraPage.xaml">
+	  <MauiXaml Update="ui\Auth\OlidasteContraPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="RegistrartePage.xaml">
+	  <MauiXaml Update="ui\Auth\RegistrartePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="SplashPage.xaml">
