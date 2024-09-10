@@ -43,7 +43,7 @@ public partial class LeavelPage : ContentPage
     {
         if(GlobalUser.currentLevel != 1)
         {
-            await DisplayAlert("Nivel Superado", "Ya has finalizado este nivel", "OK");
+            AvisoFrame.IsVisible = true;
         }
         else
         {
@@ -129,5 +129,14 @@ public partial class LeavelPage : ContentPage
 
             await Task.Delay(2000);
         }
+    }
+    private async void leveldosclicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LeavelPage());
+    }
+
+    private async void repetirLevelTapped(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LetraA());
     }
 }

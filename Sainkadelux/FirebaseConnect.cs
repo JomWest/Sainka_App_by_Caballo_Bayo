@@ -44,7 +44,7 @@ namespace Sainkadelux
             string userId = userCredential.User.Uid;
 
             // Crear una entrada en la base de datos para este usuario
-            await CrearEntradaUsuarioEnBaseDeDatos(userId, email);
+            await CrearEntradaUsuarioEnBaseDeDatos(userId, nombre,email);
 
             return userCredential;
         }
@@ -58,12 +58,13 @@ namespace Sainkadelux
             return userCredential;
         }
 
-        public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string email)
+        public async Task CrearEntradaUsuarioEnBaseDeDatos(string userId, string name,string email)
         {
             var requestUri = $"https://sainkaapp-default-rtdb.firebaseio.com/users/{userId}.json";
 
             var payload = new
             {
+                name = name,
                 email = email,
                 progreso = new { nivel = 1 } // Progreso inicial
             };

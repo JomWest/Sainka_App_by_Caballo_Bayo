@@ -119,4 +119,9 @@ public partial class UltimoLevelPage : ContentPage
 
         }
     }
+
+    private async void Menuclicked(object seder, EventArgs e)
+    {
+        await Navigation.PushAsync(new LeavelPage());
+    }
 }

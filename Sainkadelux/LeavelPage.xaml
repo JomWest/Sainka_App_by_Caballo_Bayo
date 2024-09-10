@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sainkadelux.LeavelPage"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
              NavigationPage.HasNavigationBar="False">
     <Grid>
         <ScrollView BackgroundColor="#2760DB">
@@ -67,6 +68,22 @@
                     </Frame>
                 </VerticalStackLayout>
                 <!--#endregion-->
+                <Frame x:Name="AvisoFrame" WidthRequest="300" HeightRequest="450" Margin="0,-800,0,0" CornerRadius="25" IsVisible="False" Padding="0" BorderColor="#00F1AF" >
+                    <VerticalStackLayout >
+                        <skia:SKLottieView Source="chek.json" RepeatCount="1" HeightRequest="300" WidthRequest="300"  Margin="0,-70,0,0"/>
+                       
+                        <Label  Text="Parece que ya te has pasado este nivel" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="30" FontSize="22" TextColor="Black" Margin="0,-50,0,0" FontFamily="PoppinsLigth"/>
+                        <VerticalStackLayout>
+                            <VerticalStackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="repetirLevelTapped"/>
+                            </VerticalStackLayout.GestureRecognizers>
+                            <Label Text="Repetir este nivel" HorizontalTextAlignment="Center" FontFamily="PoppinsLight" FontSize="22" TextColor="Grey"/>
+                        </VerticalStackLayout>
+                        <Frame Padding="1" CornerRadius="25" BorderColor="Transparent">
+                            <Button Text="Seguir al nivel 2" BackgroundColor="#00F1AF" FontSize="22" WidthRequest="240" HeightRequest="50"  FontFamily="PoppinsLight" TextColor="White" Clicked="leveldosclicked"/>
+                        </Frame>
+                    </VerticalStackLayout>
+                </Frame>
             </VerticalStackLayout>
         </ScrollView>
 
