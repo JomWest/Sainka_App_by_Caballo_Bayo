@@ -14,6 +14,10 @@ namespace Sainkadelux.domain.Repositories
 
         Task NavigateToRegisterPage();
 
+        Task NavigateToResetEmail();
+
+        Task PopUpNavigation();
+
     }
 
 

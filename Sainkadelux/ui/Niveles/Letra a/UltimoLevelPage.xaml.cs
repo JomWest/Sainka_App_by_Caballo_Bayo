@@ -117,7 +117,6 @@ public partial class UltimoLevelPage : ContentPage
             {
                 Console.WriteLine("El elemento fireworksAnimation no fue encontrado.");
             }
-
         }
     }
 

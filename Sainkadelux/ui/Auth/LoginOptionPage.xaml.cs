@@ -41,7 +41,7 @@ namespace Sainkadelux
         }
         private async void OnOlvidasteContraseñaTapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new OlidasteContraPage());
+            await _navigationService.NavigateToResetEmail();
         }
     }
 }

@@ -81,4 +81,4 @@ public partial class CamaraPage : ContentPage
             });
         }
     }
-    }
+}

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sainkadelux.data.Repositories
 {
-    public class NavigationService(Func<LoginOptionPage> loginOptionPageFactory, Func<RegistrartePage> registrartePageFactorty) : INavigationService
+    public class NavigationService(Func<LoginOptionPage> loginOptionPageFactory, Func<RegistrartePage> registrartePageFactorty, Func<OlidasteContraPage> olvidasteContraPage) : INavigationService
     {
 
         public async Task NavigateToLoginOptionPageAsync()
@@ -28,6 +28,17 @@ namespace Sainkadelux.data.Repositories
         {
             var registerPage = registrartePageFactorty();
             await Application.Current.MainPage.Navigation.PushAsync(registerPage);
+        }
+
+        public async Task NavigateToResetEmail()
+        {
+            var resetPasswordPage = olvidasteContraPage();
+            await Application.Current.MainPage.Navigation.PushAsync(resetPasswordPage);
+        }
+
+        public async Task PopUpNavigation()
+        {
+            await Application.Current.MainPage.Navigation.PopAsync();
         }
     }
 }

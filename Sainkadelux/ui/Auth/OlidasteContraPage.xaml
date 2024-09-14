@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Sainkadelux.OlidasteContraPage"
+             xmlns:viewModels="clr-namespace:Sainkadelux.ui.ViewModels"
+             x:DataType="viewModels:OlvidasteContraViewModel"
              NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout Background="#2760DB">
             <Image Source="sainkalogo.png" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="300" HeightRequest="300" Margin="0,10,0,0"/>
@@ -25,7 +27,7 @@
                        
 
                         <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,40,0,0"  IsVisible="True">
-                        <Button  Text="Restablecer" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0"  Clicked="OnRestablecerClicked" />
+                        <Button  Text="Restablecer" CharacterSpacing="1" FontSize="24" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0"  Command="{Binding SendResetEmailCommand}" />
                         </Frame>
                     </VerticalStackLayout>
 

@@ -35,7 +35,7 @@ public partial class RegistrartePage : ContentPage
 
             if (!string.IsNullOrEmpty(viewModel.SuccessMessage))
             {
-                await DisplayAlert("Error", viewModel.SuccessMessage, "OK");
+                await DisplayAlert("Éxito", viewModel.SuccessMessage, "OK");
 
                 viewModel.SuccessMessage = string.Empty;
             }
