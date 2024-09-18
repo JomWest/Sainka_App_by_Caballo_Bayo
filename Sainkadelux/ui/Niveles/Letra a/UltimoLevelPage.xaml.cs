@@ -95,7 +95,6 @@ public partial class UltimoLevelPage : ContentPage
 
         if (_prediction == "A")
         {
-
             LevelStack.IsVisible = false;
 
             CheckFrame.IsVisible = true;
