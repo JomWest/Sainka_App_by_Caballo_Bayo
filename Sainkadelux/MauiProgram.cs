@@ -2,8 +2,10 @@
 using Microsoft.Extensions.Logging;
 using Sainkadelux.di;
 using SkiaSharp.Views.Maui.Controls.Hosting;
-using Sainkadelux.Repositories;
 using Sainkadelux.ViewModels;
+using Sainkadelux.data.Repositories;
+using Sainkadelux.domain.Repositories;
+using Sainkadelux.ui.ViewModels;
 
 namespace Sainkadelux
 {
@@ -30,6 +32,7 @@ namespace Sainkadelux
 
             builder.Services.AddSingleton<LoginViewModel>();
             builder.Services.AddSingleton<RegisterViewModel>();
+            builder.Services.AddSingleton<OlvidasteContraViewModel>();
 
             builder.Services.AddTransient<LoginOptionPage>();
             builder.Services.AddTransient<Func<LoginOptionPage>>(sp => () => sp.GetRequiredService<LoginOptionPage>());
@@ -37,6 +40,8 @@ namespace Sainkadelux
             builder.Services.AddTransient<RegistrartePage>();
             builder.Services.AddTransient<Func<RegistrartePage>>(sp => () => sp.GetRequiredService<RegistrartePage>());
 
+            builder.Services.AddTransient<OlidasteContraPage>();
+            builder.Services.AddTransient<Func<OlidasteContraPage>>(sp => () => sp.GetRequiredService<OlidasteContraPage>());
 
 #if DEBUG
             builder.Logging.AddDebug();

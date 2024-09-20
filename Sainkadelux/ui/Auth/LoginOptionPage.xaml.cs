@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
-using Sainkadelux.Repositories;
+using Sainkadelux.domain.Repositories;
 using Sainkadelux.ViewModels;
 
 namespace Sainkadelux
@@ -41,7 +41,7 @@ namespace Sainkadelux
         }
         private async void OnOlvidasteContraseñaTapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new OlidasteContraPage());
+            await _navigationService.NavigateToResetEmail();
         }
     }
 }

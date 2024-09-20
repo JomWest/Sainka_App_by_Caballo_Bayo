@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sainkadelux.Repositories
+namespace Sainkadelux.domain.Repositories
 {
     public interface INavigationService
     {
@@ -13,8 +13,12 @@ namespace Sainkadelux.Repositories
         Task NavigateToLoginOptionPageAsync();
 
         Task NavigateToRegisterPage();
-   
-     }
 
-    
+        Task NavigateToResetEmail();
+
+        Task PopUpNavigation();
+
+    }
+
+
 }

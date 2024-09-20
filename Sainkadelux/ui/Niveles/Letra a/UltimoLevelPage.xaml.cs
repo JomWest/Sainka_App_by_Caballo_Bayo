@@ -1,6 +1,7 @@
 using CommunityToolkit.Maui.Views;
 using Microsoft.Maui.Storage;
 using Newtonsoft.Json.Linq;
+using Sainkadelux.data.Services;
 using SkiaSharp.Extended.UI.Controls;
 
 namespace Sainkadelux.Niveles.Letra_a;
@@ -47,7 +48,7 @@ public partial class UltimoLevelPage : ContentPage
             }
 
             // Espera 5 segundos antes de capturar la siguiente imagen
-            await Task.Delay(5000);
+            await Task.Delay(3000);
         }
     }
 
@@ -94,7 +95,6 @@ public partial class UltimoLevelPage : ContentPage
 
         if (_prediction == "A")
         {
-
             LevelStack.IsVisible = false;
 
             CheckFrame.IsVisible = true;
@@ -116,7 +116,6 @@ public partial class UltimoLevelPage : ContentPage
             {
                 Console.WriteLine("El elemento fireworksAnimation no fue encontrado.");
             }
-
         }
     }
 

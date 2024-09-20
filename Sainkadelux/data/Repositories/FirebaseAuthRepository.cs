@@ -1,11 +1,13 @@
 ﻿using Firebase.Auth;
+using Sainkadelux.data.Services;
+using Sainkadelux.domain.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sainkadelux.Repositories
+namespace Sainkadelux.data.Repositories
 {
     public class FirebaseAuthRepository : IFirebaseAuthRepository
     {
