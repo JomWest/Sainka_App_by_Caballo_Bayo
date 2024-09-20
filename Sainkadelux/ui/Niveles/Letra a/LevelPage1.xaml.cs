@@ -29,7 +29,9 @@ public partial class LevelPage1 : ContentPage
     }
     private async void SiguienteRetoCliecked (object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new LevelPage2());
+        Navigation.InsertPageBefore(new LevelPage2(), this);
+        await Navigation.PopAsync();
+
     }
     private async void ReintenatrClicked(object sender, EventArgs e)
     {

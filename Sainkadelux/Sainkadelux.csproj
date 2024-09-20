@@ -133,6 +133,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="ui\Niveles\Letra e\LetraE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra e\LevelPageE1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra e\LevelPageE2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra e\UltimolevelPageE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ui\Welcome\BIenvenida.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

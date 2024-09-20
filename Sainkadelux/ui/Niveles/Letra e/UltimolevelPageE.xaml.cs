@@ -1,29 +1,25 @@
+using CommunityToolkit.Maui.Core;
 using CommunityToolkit.Maui.Views;
-using Microsoft.Maui.Storage;
 using Newtonsoft.Json.Linq;
 using Sainkadelux.data.Services;
 using SkiaSharp.Extended.UI.Controls;
 
-namespace Sainkadelux.Niveles.Letra_a;
+namespace Sainkadelux.ui.Niveles.Letra_e;
 
-public partial class UltimoLevelPage : ContentPage
+public partial class UltimolevelPageE : ContentPage
 {
     private CancellationTokenSource? _cancellationTokenSource;
     private HttpClient _httpClient;
     string _prediction;
     private bool _isCapturing = true;
-
     private readonly string userId = GlobalUser.UserId;
-
-
     private readonly FirebaseConnect _firebase = new FirebaseConnect();
 
-    public UltimoLevelPage()
-    {
-        InitializeComponent();
+    public UltimolevelPageE()
+	{
+		InitializeComponent();
         _httpClient = new HttpClient();
     }
-
     protected override void OnAppearing()
     {
         base.OnAppearing();
@@ -51,7 +47,6 @@ public partial class UltimoLevelPage : ContentPage
             await Task.Delay(3000);
         }
     }
-
     private async void cameraView_MediaCaptured(object sender, CommunityToolkit.Maui.Views.MediaCapturedEventArgs e)
     {
         using var memoryStream = new MemoryStream();
@@ -89,11 +84,10 @@ public partial class UltimoLevelPage : ContentPage
             });
         }
     }
-
     private async void VerificarPrediccion()
     {
 
-        if (_prediction == "A")
+        if (_prediction == "E")
         {
             LevelStack.IsVisible = false;
 
@@ -101,14 +95,14 @@ public partial class UltimoLevelPage : ContentPage
             SKLottieView fireworksAnimation = (SKLottieView)FindByName("fireworksAnimation");
             if (fireworksAnimation != null)
             {
-                if(GlobalUser.currentLevel == 1)
+                if (GlobalUser.currentLevel == 1)
                 {
                     var newLevel = GlobalUser.currentLevel + 1;
                     await _firebase.GuardarProgreso(userId, newLevel);
                     GlobalUser.currentLevel = newLevel;
                     cameraView.IsEnabled = false;
                 }
-                
+
                 fireworksAnimation.IsVisible = true;
                 _isCapturing = false;
             }
@@ -118,7 +112,6 @@ public partial class UltimoLevelPage : ContentPage
             }
         }
     }
-
     private async void Menuclicked(object seder, EventArgs e)
     {
         Navigation.InsertPageBefore(new LeavelPage(), this);

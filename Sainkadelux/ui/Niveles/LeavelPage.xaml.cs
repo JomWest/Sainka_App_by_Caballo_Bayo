@@ -1,5 +1,6 @@
 using Sainkadelux.data.Services;
 using Sainkadelux.Niveles.Letra_a;
+using Sainkadelux.ui.Niveles.Letra_e;
 
 namespace Sainkadelux;
 
@@ -50,6 +51,10 @@ public partial class LeavelPage : ContentPage
             await Navigation.PushAsync(new LetraA());
         }
 
+    }
+    private async void OnImageETapped(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new LetraE());
     }
     private async void ChangeImageWithAnimation()
     {

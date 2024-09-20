@@ -27,6 +27,8 @@ public partial class LetraA : ContentPage
     }
     private async void NivelOneClicked(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new LevelPage1());
+        Navigation.InsertPageBefore(new LevelPage1(), this);
+        await Navigation.PopAsync();
+
     }
 }

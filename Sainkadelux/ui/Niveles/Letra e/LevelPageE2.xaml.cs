@@ -1,11 +1,9 @@
-using Microsoft.Maui.Controls;
+namespace Sainkadelux.ui.Niveles.Letra_e;
 
-namespace Sainkadelux.Niveles.Letra_a;
-
-public partial class LevelPage2 : ContentPage
+public partial class LevelPageE2 : ContentPage
 {
     private string selectedAnswer;
-    public LevelPage2()
+    public LevelPageE2()
 	{
 		InitializeComponent();
 	}
@@ -20,16 +18,17 @@ public partial class LevelPage2 : ContentPage
 
     private void ResetFrameColors()
     {
-        FrameA.BackgroundColor = Color.FromArgb("#2760DB");
+        FrameI.BackgroundColor = Color.FromArgb("#2760DB");
         FrameE.BackgroundColor = Color.FromArgb("#2760DB");
-        FrameO.BackgroundColor = Color.FromArgb("#2760DB");
+        FrameU.BackgroundColor = Color.FromArgb("#2760DB");
     }
     private async void SiguienteRetoCliecked(object sender, EventArgs e)
     {
-        Navigation.InsertPageBefore(new UltimoLevelPage(), this);
+        Navigation.InsertPageBefore(new UltimolevelPageE(), this);
         await Navigation.PopAsync();
 
     }
+
     private async void ReintenatrClicked(object sender, EventArgs e)
     {
         ResetFrameColors();
@@ -39,9 +38,9 @@ public partial class LevelPage2 : ContentPage
     }
 
     private async void NivelOneClicked(object sender, EventArgs e)
-    { 
+    {
 
-        if (selectedAnswer == "A")
+        if (selectedAnswer == "E")
         {
             CheckFrame.IsVisible = true;
             Continuarbtn.IsVisible = false;
@@ -54,4 +53,5 @@ public partial class LevelPage2 : ContentPage
             OpcionesStack.IsVisible = false;
         }
     }
+ 
 }

@@ -28,9 +28,9 @@
                 <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
                     <Frame HasShadow="True" Padding="40"  WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="150,0,0,0">
                         <Image x:Name="animatedImageE" Source="eb.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center" >
-                            <!--<Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="OnImageTapped"/>
-                            </Image.GestureRecognizers>-->
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnImageETapped"/>
+                            </Image.GestureRecognizers>
                         </Image>
                     </Frame>
                 </VerticalStackLayout>
