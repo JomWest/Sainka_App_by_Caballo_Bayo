@@ -95,7 +95,7 @@ public partial class UltimolevelPageE : ContentPage
             SKLottieView fireworksAnimation = (SKLottieView)FindByName("fireworksAnimation");
             if (fireworksAnimation != null)
             {
-                if (GlobalUser.currentLevel == 1)
+                if (GlobalUser.currentLevel == 2)
                 {
                     var newLevel = GlobalUser.currentLevel + 1;
                     await _firebase.GuardarProgreso(userId, newLevel);
