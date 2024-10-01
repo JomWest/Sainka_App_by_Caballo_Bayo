@@ -16,39 +16,64 @@ public partial class UltimolevelPageE : ContentPage
     private readonly FirebaseConnect _firebase = new FirebaseConnect();
 
     public UltimolevelPageE()
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
         _httpClient = new HttpClient();
     }
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
+
+        await Task.Delay(2000);
+
+        _isCapturing = true;
         StartCameraCapture();
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+
+        _isCapturing = false;
     }
 
     private async void StartCameraCapture()
     {
-        while (_isCapturing)
+        if (cameraView != null)
         {
-            try
+            while (_isCapturing)
             {
-                if (cameraView.IsAvailable)
+                try
                 {
-                    // Llama a CaptureImage, lo cual activará el evento MediaCaptured
-                    await cameraView.CaptureImage(CancellationToken.None);
+                    if (cameraView.IsAvailable)
+                    {
+                        // Llama a CaptureImage, lo cual activará el evento MediaCaptured
+                        await cameraView.CaptureImage(CancellationToken.None);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: Camera is not available.\"");
+                    }
                 }
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error", $"Failed to capture image: {ex.Message}", "OK");
-            }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
 
-            // Espera 5 segundos antes de capturar la siguiente imagen
-            await Task.Delay(3000);
+                // Espera 5 segundos antes de capturar la siguiente imagen
+                await Task.Delay(3000);
+            }
         }
     }
     private async void cameraView_MediaCaptured(object sender, CommunityToolkit.Maui.Views.MediaCapturedEventArgs e)
     {
+
+        if (e.Media == null)
+        {
+            Console.WriteLine($"Error: No media captured");
+            return;
+        }
+
         using var memoryStream = new MemoryStream();
         await e.Media.CopyToAsync(memoryStream);
         memoryStream.Position = 0;
@@ -77,11 +102,8 @@ public partial class UltimolevelPageE : ContentPage
         }
         catch (Exception ex)
         {
-            Dispatcher.Dispatch(async () =>
-            {
-                await DisplayAlert("error", $"failed to process captured image: {ex.Message}", "ok");
-                _prediction = $"error: {ex.Message}";
-            });
+            Console.WriteLine($"Error: {ex.Message}");
+            _prediction = $"error: {ex.Message}";
         }
     }
     private async void VerificarPrediccion()

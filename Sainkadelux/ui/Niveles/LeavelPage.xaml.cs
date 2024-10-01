@@ -48,13 +48,15 @@ public partial class LeavelPage : ContentPage
         }
         else
         {
-            await Navigation.PushAsync(new LetraA());
+            Navigation.InsertPageBefore(new LetraA(), this);
+            await Navigation.PopAsync();
         }
 
     }
     private async void OnImageETapped(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new LetraE());
+        Navigation.InsertPageBefore(new LetraE(), this);
+        await Navigation.PopAsync();
     }
     private async void ChangeImageWithAnimation()
     {

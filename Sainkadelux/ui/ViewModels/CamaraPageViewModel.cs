@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sainkadelux.ui.ViewModels
 {
-    public partial class CamaraPageViewModel: ObservableObject
+    public partial class CamaraPageViewModel : ObservableObject
     {
         private readonly HttpClient _httpClient;
 
@@ -41,8 +41,10 @@ namespace Sainkadelux.ui.ViewModels
                 var response = await _httpClient.PostAsync("http://162.215.132.36:5000/predict", content);
                 var result = await response.Content.ReadAsStringAsync();
 
-                // Actualiza el resultado de la predicción
-                PredictionResult = result;
+                if (!result.Contains("mensaje")){
+                    // Actualiza el resultado de la predicción
+                    PredictionResult = result;
+                }
             }
             catch (Exception ex)
             {

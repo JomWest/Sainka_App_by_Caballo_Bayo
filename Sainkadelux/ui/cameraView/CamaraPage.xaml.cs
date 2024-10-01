@@ -13,42 +13,66 @@ public partial class CamaraPage : ContentPage
 
     private bool _isCapturing = true;
     public CamaraPage()
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
         _viewModel = new CamaraPageViewModel();
         BindingContext = _viewModel;
     }
 
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
         base.OnAppearing();
+
+        await Task.Delay(2000);
+        _isCapturing = true;
         StartCameraCapture();
+    }
+
+    protected override void OnDisappearing()
+    {
+        base.OnDisappearing();
+
+        _isCapturing = false;
     }
 
     private async void StartCameraCapture()
     {
-        while (_viewModel.IsCapturing)
+        if (cameraView != null)
         {
-            try
+            while (_viewModel.IsCapturing)
             {
-                if (cameraView.IsAvailable)
+                try
                 {
-                    // Llama a CaptureImage y espera el evento MediaCaptured
-                    await cameraView.CaptureImage(CancellationToken.None);
+                    if (cameraView.IsAvailable)
+                    {
+                        // Llama a CaptureImage y espera el evento MediaCaptured
+                        await cameraView.CaptureImage(CancellationToken.None);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error: Camera is not available.");
+                    }
                 }
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error", $"Failed to capture image: {ex.Message}", "OK");
-            }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
 
-            await Task.Delay(5000); // Espera 5 segundos antes de capturar la siguiente imagen
+                await Task.Delay(5000); // Espera 5 segundos antes de capturar la siguiente imagen
+            }
         }
     }
 
     // Manejar el evento MediaCaptured
     private async void cameraView_MediaCaptured(object sender, CommunityToolkit.Maui.Views.MediaCapturedEventArgs e)
     {
+
+        if (e.Media == null)
+        {
+            Console.WriteLine($"Error: No media captured");
+            return;
+        }
+
         using var memoryStream = new MemoryStream();
         await e.Media.CopyToAsync(memoryStream);
         memoryStream.Position = 0;

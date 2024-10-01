@@ -19,6 +19,4 @@ namespace Sainkadelux.domain.Repositories
         Task PopUpNavigation();
 
     }
-
-
 }
