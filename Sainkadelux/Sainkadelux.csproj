@@ -145,6 +145,42 @@
 	  <MauiXaml Update="ui\Niveles\Letra e\UltimolevelPageE.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra i\LetraI.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra i\LevelPage1I.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra i\LevelPage2I.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra i\UltimoLevelPageI.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra o\LetraO.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra o\LevelPage1O.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra o\LevelPage2O.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra o\UltimoNivelPageO.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra u\LetraU.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra u\LevelPage1U.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra u\LevelPage2U.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Letra u\UltimoLevelPageU.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ui\Welcome\BIenvenida.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

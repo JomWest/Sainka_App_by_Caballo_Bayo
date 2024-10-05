@@ -1,0 +1,742 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\leavelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\leavelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\leavelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\levelpage2u.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\levelpage2u.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\levelpage1u.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\levelpage1u.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\ultimolevelpageu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\ultimolevelpageu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\ultimolevelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\ultimolevelpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\ultimolevelpageu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\ultimolevelpageu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\ultimolevelpagei.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\ultimolevelpagei.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\ultimolevelpagei.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\ultimolevelpagei.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\ultimonivelpageo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\ultimonivelpageo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\ultimonivelpageo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\ultimonivelpageo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\ultimolevelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\ultimolevelpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\levelpage2u.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\levelpage2u.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\levelpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\levelpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\levelpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\levelpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\levelpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\levelpage1u.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\levelpage1u.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\levelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\levelpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\letrau.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\letrau.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra u\\letrau.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra u\\letrau.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\letraa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\letraa.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra a\\letraa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra a\\letraa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\levelpage2o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\levelpage2o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\levelpage1o.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\levelpage1o.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\levelpage1o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\levelpage1o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\levelpage2o.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\levelpage2o.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\letrao.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\letrao.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra o\\letrao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra o\\letrao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\letrai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\letrai.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\letrai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\letrai.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\levelpage2i.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\levelpage2i.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\levelpage2i.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\levelpage2i.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\levelpagee1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\levelpagee1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\ultimolevelpagee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\ultimolevelpagee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\ultimolevelpagee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\ultimolevelpagee.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\levelpagee2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\levelpagee2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\levelpagee2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\levelpagee2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\levelpagee1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\levelpagee1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\levelpage1i.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\levelpage1i.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra i\\levelpage1i.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra i\\levelpage1i.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\letrae.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\letrae.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|c:\\users\\azazel\\onedrive\\escritorio\\sainkadevelop\\sainka_app_by_caballo_bayo\\sainkadelux\\ui\\niveles\\letra e\\letrae.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BD90ADA8-38AF-4A6D-87E9-90722A454451}|Sainkadelux\\Sainkadelux.csproj|solutionrelative:sainkadelux\\ui\\niveles\\letra e\\letrae.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UltimoLevelPageU.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:23:53.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UltimoLevelPageU.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\UltimoLevelPageU.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T04:22:18.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LevelPage2U.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:20:32.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UltimoNivelPageO.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T01:37:57.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UltimoLevelPageI.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:31:27.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UltimoLevelPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:55:31.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelPage1U.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwBsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:17:37.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeavelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\LeavelPage.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\LeavelPage.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\LeavelPage.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\LeavelPage.xaml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T17:27:04.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeavelPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\LeavelPage.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\LeavelPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\LeavelPage.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\LeavelPage.xaml.cs",
+              "ViewState": "AgIAANMAAAAAAAAAAAAvwN4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:27:47.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UltimoNivelPageO.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\UltimoNivelPageO.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T01:37:52.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UltimoLevelPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\UltimoLevelPage.xaml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:55:25.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LevelPage2U.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage2U.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T04:18:25.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LevelPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T00:47:49.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UltimoLevelPageI.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\UltimoLevelPageI.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:46:52.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LevelPage1U.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LevelPage1U.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T04:15:09.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LetraU.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T04:14:05.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LetraU.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra u\\LetraU.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T04:12:57.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LevelPage2O.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-05T00:46:02.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LevelPage2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage2.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T01:36:46.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LevelPage1O.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:52:30.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LetraA.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:42:33.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LetraO.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:42:52.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LevelPage1.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml",
+              "ViewState": "AgIAADYAAAAAAAAAAADwvz8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:46:17.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LevelPage1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LevelPage1.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:52:39.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LevelPage1O.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage1O.xaml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:43:51.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LetraA.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra a\\LetraA.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:38:37.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LetraI.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T17:24:27.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LevelPage2O.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LevelPage2O.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T01:36:39.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LetraO.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra o\\LetraO.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:42:20.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LetraI.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LetraI.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:25:13.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LevelPage2I.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA9wC4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:12:45.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LevelPage2I.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage2I.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:10:44.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LevelPageE2.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:25:36.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LevelPageE1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:03:43.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LevelPageE1.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE1.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABEAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:03:44.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UltimolevelPageE.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T18:45:18.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LevelPage1I.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:07:54.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\AppShell.xaml",
+              "RelativeToolTip": "Sainkadelux\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T19:09:53.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\MauiProgram.cs",
+              "RelativeToolTip": "Sainkadelux\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T19:09:53.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UltimolevelPageE.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\UltimolevelPageE.xaml.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:46:34.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LevelPageE2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LevelPageE2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T18:26:22.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAP4AAAAAAAAAAAAIwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-04T17:52:48.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LevelPage1I.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra i\\LevelPage1I.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T17:39:20.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LetraE.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml.cs",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml.cs",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml.cs",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T17:25:52.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LetraE.xaml",
+              "DocumentMoniker": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml",
+              "RelativeDocumentMoniker": "Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml",
+              "ToolTip": "C:\\Users\\Azazel\\OneDrive\\Escritorio\\SainkaDevelop\\Sainka_App_by_Caballo_Bayo\\Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml",
+              "RelativeToolTip": "Sainkadelux\\ui\\Niveles\\Letra e\\LetraE.xaml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-04T17:25:08.492Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
