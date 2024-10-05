@@ -86,13 +86,13 @@ public partial class UltimolevelPageE : ContentPage
         try
         {
             using var content = new MultipartFormDataContent();
-            content.Add(new StreamContent(new MemoryStream(memoryStream.ToArray())), "image", "frame.jpg");
+            content.Add(new StreamContent(memoryStream), "image", "frame.jpg");
 
             var response = await _httpClient.PostAsync("http://162.215.132.36:5000/predict", content);
             var result = await response.Content.ReadAsStringAsync();
 
             var jsonResult = JObject.Parse(result);
-            var prediction = jsonResult["prediccion"].ToString();
+            var prediction = jsonResult["prediction"].ToString();
 
             Dispatcher.Dispatch(() =>
             {

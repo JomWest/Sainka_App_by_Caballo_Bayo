@@ -26,7 +26,7 @@
                 <VerticalStackLayout Spacing="20">
                     <Label Text="Recrea la seña" HorizontalTextAlignment="Center" FontFamily="PoppinsBold" FontSize="26" TextColor="White"/>
                     <Frame CornerRadius="20" BorderColor="#00F1AF" WidthRequest="150" HeightRequest="150" BackgroundColor="White">
-                        <Image Source="eb.png"/>
+                        <Image Source="ib.png"/>
                     </Frame>
                     <Label Text="Recrea con tu mano la seña que aparece en pantalla y colócala frente a la cámara para superar este último nivel." HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="20" TextColor="White" Margin="0,0,0,0" FontFamily="PoppinsLigth"/>
                     <Image  Grid.Row="2"  x:Name="capturedImage" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="End" Margin="0,-20,280,0" IsVisible="False"/>
