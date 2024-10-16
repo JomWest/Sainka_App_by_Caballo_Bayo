@@ -82,7 +82,7 @@ public partial class UltimoLevelPage : ContentPage
         using var memoryStream = new MemoryStream();
         await e.Media.CopyToAsync(memoryStream);
         memoryStream.Position = 0;
-
+         
         Dispatcher.Dispatch(() =>
         {
             capturedImage.Source = ImageSource.FromStream(() => new MemoryStream(memoryStream.ToArray()));
@@ -93,7 +93,7 @@ public partial class UltimoLevelPage : ContentPage
             using var content = new MultipartFormDataContent();
             content.Add(new StreamContent(memoryStream), "image", "frame.jpg");
 
-            var response = await _httpClient.PostAsync("http://162.215.132.36:5000/predict", content);
+            var response = await _httpClient.PostAsync("http://162.215.175.28:5000/predict", content);
             var result = await response.Content.ReadAsStringAsync();
 
             var jsonResult = JObject.Parse(result);

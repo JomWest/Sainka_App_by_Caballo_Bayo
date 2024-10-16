@@ -47,6 +47,7 @@ public partial class CamaraPage : ContentPage
                     {
                         // Llama a CaptureImage y espera el evento MediaCaptured
                         await cameraView.CaptureImage(CancellationToken.None);
+                        _viewModel.Counter++;
                     }
                     else
                     {

@@ -90,7 +90,7 @@ public partial class UltimoNivelPageO : ContentPage
             using var content = new MultipartFormDataContent();
             content.Add(new StreamContent(memoryStream), "image", "frame.jpg");
 
-            var response = await _httpClient.PostAsync("http://162.215.132.36:5000/predict", content);
+            var response = await _httpClient.PostAsync("http://162.215.175.28:5000/predict", content);
             var result = await response.Content.ReadAsStringAsync();
 
             var jsonResult = JObject.Parse(result);
@@ -140,7 +140,7 @@ public partial class UltimoNivelPageO : ContentPage
 
     private async void Menuclicked(object seder, EventArgs e)
     {
-        Navigation.InsertPageBefore(new LeavelPage(), this);
+        Navigation.InsertPageBefore(new LevelPage1O(), this);
         await Navigation.PopAsync();
 
     }
