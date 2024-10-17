@@ -78,37 +78,142 @@
 	  <None Remove="Resources\Fonts\Poppins-Light.ttf" />
 	  <None Remove="Resources\Images\a.png" />
 	  <None Remove="Resources\Images\ab.png" />
+	  <None Remove="Resources\Images\abecedario.png" />
 	  <None Remove="Resources\Images\abl.png" />
 	  <None Remove="Resources\Images\al.png" />
 	  <None Remove="Resources\Images\alv.png" />
 	  <None Remove="Resources\Images\av.png" />
+	  <None Remove="Resources\Images\back.png" />
+	  <None Remove="Resources\Images\backb.png" />
+	  <None Remove="Resources\Images\bb.png" />
+	  <None Remove="Resources\Images\bbl.png" />
 	  <None Remove="Resources\Images\bienvenido.png" />
+	  <None Remove="Resources\Images\bl.png" />
+	  <None Remove="Resources\Images\blv.png" />
+	  <None Remove="Resources\Images\bv.png" />
 	  <None Remove="Resources\Images\camara.png" />
+	  <None Remove="Resources\Images\cb.png" />
+	  <None Remove="Resources\Images\cbl.png" />
+	  <None Remove="Resources\Images\chb.png" />
+	  <None Remove="Resources\Images\chbl.png" />
 	  <None Remove="Resources\Images\chech.png" />
+	  <None Remove="Resources\Images\chl.png" />
+	  <None Remove="Resources\Images\chlv.png" />
+	  <None Remove="Resources\Images\chv.png" />
+	  <None Remove="Resources\Images\cl.png" />
+	  <None Remove="Resources\Images\clv.png" />
 	  <None Remove="Resources\Images\contras.png" />
+	  <None Remove="Resources\Images\cv.png" />
+	  <None Remove="Resources\Images\db.png" />
+	  <None Remove="Resources\Images\dbl.png" />
+	  <None Remove="Resources\Images\dl.png" />
+	  <None Remove="Resources\Images\dlv.png" />
+	  <None Remove="Resources\Images\dv.png" />
 	  <None Remove="Resources\Images\e.png" />
 	  <None Remove="Resources\Images\eb.png" />
 	  <None Remove="Resources\Images\ebl.png" />
 	  <None Remove="Resources\Images\el.png" />
 	  <None Remove="Resources\Images\elv.png" />
 	  <None Remove="Resources\Images\ev.png" />
+	  <None Remove="Resources\Images\fb.png" />
+	  <None Remove="Resources\Images\fbl.png" />
+	  <None Remove="Resources\Images\fl.png" />
+	  <None Remove="Resources\Images\flv.png" />
+	  <None Remove="Resources\Images\fv.png" />
+	  <None Remove="Resources\Images\gb.png" />
+	  <None Remove="Resources\Images\gbl.png" />
+	  <None Remove="Resources\Images\gl.png" />
+	  <None Remove="Resources\Images\glv.png" />
 	  <None Remove="Resources\Images\googlee.png" />
+	  <None Remove="Resources\Images\gv.png" />
+	  <None Remove="Resources\Images\hb.png" />
+	  <None Remove="Resources\Images\hbl.png" />
+	  <None Remove="Resources\Images\hl.png" />
+	  <None Remove="Resources\Images\hlv.png" />
+	  <None Remove="Resources\Images\hv.png" />
 	  <None Remove="Resources\Images\i.png" />
 	  <None Remove="Resources\Images\ib.png" />
 	  <None Remove="Resources\Images\ibl.png" />
 	  <None Remove="Resources\Images\il.png" />
 	  <None Remove="Resources\Images\ilv.png" />
 	  <None Remove="Resources\Images\iv.png" />
+	  <None Remove="Resources\Images\jb.png" />
+	  <None Remove="Resources\Images\jbl.png" />
+	  <None Remove="Resources\Images\jl.png" />
+	  <None Remove="Resources\Images\jlv.png" />
+	  <None Remove="Resources\Images\jv.png" />
+	  <None Remove="Resources\Images\kb.png" />
+	  <None Remove="Resources\Images\kbl.png" />
+	  <None Remove="Resources\Images\kl.png" />
+	  <None Remove="Resources\Images\klv.png" />
+	  <None Remove="Resources\Images\kv.png" />
+	  <None Remove="Resources\Images\lb.png" />
+	  <None Remove="Resources\Images\lbl.png" />
+	  <None Remove="Resources\Images\ll.png" />
+	  <None Remove="Resources\Images\llb.png" />
+	  <None Remove="Resources\Images\llbl.png" />
+	  <None Remove="Resources\Images\lll.png" />
+	  <None Remove="Resources\Images\lllv.png" />
+	  <None Remove="Resources\Images\llv.png" />
 	  <None Remove="Resources\Images\logint.png" />
+	  <None Remove="Resources\Images\lv.png" />
+	  <None Remove="Resources\Images\mb.png" />
+	  <None Remove="Resources\Images\mbl.png" />
+	  <None Remove="Resources\Images\ml.png" />
+	  <None Remove="Resources\Images\mlv.png" />
+	  <None Remove="Resources\Images\mv.png" />
+	  <None Remove="Resources\Images\nave.png" />
+	  <None Remove="Resources\Images\nb.png" />
+	  <None Remove="Resources\Images\nbl.png" />
+	  <None Remove="Resources\Images\nl.png" />
+	  <None Remove="Resources\Images\nlv.png" />
+	  <None Remove="Resources\Images\nnb.png" />
+	  <None Remove="Resources\Images\nnbl.png" />
+	  <None Remove="Resources\Images\nnl.png" />
+	  <None Remove="Resources\Images\nnlv.png" />
+	  <None Remove="Resources\Images\nnv.png" />
+	  <None Remove="Resources\Images\numeros.png" />
+	  <None Remove="Resources\Images\nv.png" />
 	  <None Remove="Resources\Images\o.png" />
 	  <None Remove="Resources\Images\ob.png" />
 	  <None Remove="Resources\Images\obl.png" />
 	  <None Remove="Resources\Images\ol.png" />
 	  <None Remove="Resources\Images\olv.png" />
 	  <None Remove="Resources\Images\ov.png" />
+	  <None Remove="Resources\Images\pb.png" />
+	  <None Remove="Resources\Images\pbl.png" />
+	  <None Remove="Resources\Images\pl.png" />
+	  <None Remove="Resources\Images\plv.png" />
+	  <None Remove="Resources\Images\pv.png" />
+	  <None Remove="Resources\Images\qb.png" />
+	  <None Remove="Resources\Images\qbl.png" />
+	  <None Remove="Resources\Images\ql.png" />
+	  <None Remove="Resources\Images\qlv.png" />
+	  <None Remove="Resources\Images\qv.png" />
+	  <None Remove="Resources\Images\rb.png" />
+	  <None Remove="Resources\Images\rbl.png" />
+	  <None Remove="Resources\Images\rl.png" />
+	  <None Remove="Resources\Images\rlv.png" />
+	  <None Remove="Resources\Images\rrb.png" />
+	  <None Remove="Resources\Images\rrbl.png" />
+	  <None Remove="Resources\Images\rrl.png" />
+	  <None Remove="Resources\Images\rrlv.png" />
+	  <None Remove="Resources\Images\rrv.png" />
+	  <None Remove="Resources\Images\rv.png" />
 	  <None Remove="Resources\Images\sainkalogo.png" />
+	  <None Remove="Resources\Images\sb.png" />
+	  <None Remove="Resources\Images\sbl.png" />
+	  <None Remove="Resources\Images\sl.png" />
+	  <None Remove="Resources\Images\slv.png" />
 	  <None Remove="Resources\Images\splash.svg" />
 	  <None Remove="Resources\Images\splashpage.png" />
+	  <None Remove="Resources\Images\star.png" />
+	  <None Remove="Resources\Images\sv.png" />
+	  <None Remove="Resources\Images\tb.png" />
+	  <None Remove="Resources\Images\tbl.png" />
+	  <None Remove="Resources\Images\tl.png" />
+	  <None Remove="Resources\Images\tlv.png" />
+	  <None Remove="Resources\Images\tv.png" />
 	  <None Remove="Resources\Images\u.png" />
 	  <None Remove="Resources\Images\ub.png" />
 	  <None Remove="Resources\Images\ubl.png" />
@@ -116,7 +221,33 @@
 	  <None Remove="Resources\Images\ulv.png" />
 	  <None Remove="Resources\Images\usuarios.png" />
 	  <None Remove="Resources\Images\uv.png" />
+	  <None Remove="Resources\Images\vb.png" />
+	  <None Remove="Resources\Images\vbl.png" />
 	  <None Remove="Resources\Images\vector.png" />
+	  <None Remove="Resources\Images\vl.png" />
+	  <None Remove="Resources\Images\vlv.png" />
+	  <None Remove="Resources\Images\vocales.png" />
+	  <None Remove="Resources\Images\vv.png" />
+	  <None Remove="Resources\Images\wb.png" />
+	  <None Remove="Resources\Images\wbl.png" />
+	  <None Remove="Resources\Images\wl.png" />
+	  <None Remove="Resources\Images\wlv.png" />
+	  <None Remove="Resources\Images\wv.png" />
+	  <None Remove="Resources\Images\xb.png" />
+	  <None Remove="Resources\Images\xbl.png" />
+	  <None Remove="Resources\Images\xl.png" />
+	  <None Remove="Resources\Images\xlv.png" />
+	  <None Remove="Resources\Images\xv.png" />
+	  <None Remove="Resources\Images\yb.png" />
+	  <None Remove="Resources\Images\ybl.png" />
+	  <None Remove="Resources\Images\yl.png" />
+	  <None Remove="Resources\Images\ylv.png" />
+	  <None Remove="Resources\Images\yv.png" />
+	  <None Remove="Resources\Images\zb.png" />
+	  <None Remove="Resources\Images\zbl.png" />
+	  <None Remove="Resources\Images\zl.png" />
+	  <None Remove="Resources\Images\zlv.png" />
+	  <None Remove="Resources\Images\zv.png" />
 	  <None Remove="Resources\Raw\chek.json" />
 	  <None Remove="Resources\Raw\error.json" />
 	  <None Remove="Resources\Raw\fireworks.json" />
@@ -133,52 +264,109 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="ui\Niveles\Letra e\LetraE.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\FirtsAbecedarioPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra e\LevelPageE1.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra a\Levelpage1AA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra e\LevelPageE2.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra a\LevelPage2AA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra e\UltimolevelPageE.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra a\LevelPageAA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra i\LetraI.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra a\UltimolevelPageAA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra i\LevelPage1I.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra b\LetraB.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra i\LevelPage2I.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra b\LevelPage1b.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra i\UltimoLevelPageI.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra b\LevelPage2b.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra o\LetraO.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra b\UltimoLevelPageb.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra o\LevelPage1O.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\LetraC.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra o\LevelPage2O.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\LevelPage1C.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra o\UltimoNivelPageO.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\LevelPage2C.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra u\LetraU.xaml">
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\UltimoLevelePageC.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra u\LevelPage1U.xaml">
+	  <MauiXaml Update="ui\Niveles\Vocales\LeavelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra u\LevelPage2U.xaml">
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra a\LetraA.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra u\UltimoLevelPageU.xaml">
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra a\LevelPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra a\LevelPage2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra a\UltimoLevelPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra e\LetraE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra e\LevelPageE1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra e\LevelPageE2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra e\UltimolevelPageE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra i\LetraI.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra i\LevelPage1I.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra i\LevelPage2I.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra i\UltimoLevelPageI.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra o\LetraO.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra o\LevelPage1O.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra o\LevelPage2O.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra o\UltimoNivelPageO.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra u\LetraU.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra u\LevelPage1U.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra u\LevelPage2U.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Vocales\Letra u\UltimoLevelPageU.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\WorldPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ui\Welcome\BIenvenida.xaml">
@@ -187,25 +375,10 @@
 	  <MauiXaml Update="ui\cameraView\CamaraPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\LeavelPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="ui\Auth\LoginOptionPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ui\Welcome\MenuPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra a\LetraA.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra a\LevelPage1.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra a\LevelPage2.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="ui\Niveles\Letra a\UltimoLevelPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ui\Auth\OlidasteContraPage.xaml">
@@ -217,6 +390,72 @@
 	  <MauiXaml Update="SplashPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="ui\Niveles\Vocales\LeavelPage.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra a\LetraA.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra a\LevelPage1.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra a\LevelPage2.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra a\UltimoLevelPage.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra e\LetraE.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra e\LevelPageE1.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra e\LevelPageE2.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra e\UltimolevelPageE.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra i\LetraI.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra i\LevelPage1I.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra i\LevelPage2I.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra i\UltimoLevelPageI.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra o\LetraO.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra o\LevelPage1O.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra o\LevelPage2O.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra o\UltimoNivelPageO.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra u\LetraU.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra u\LevelPage1U.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra u\LevelPage2U.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
+	  <Compile Update="ui\Niveles\Vocales\Letra u\UltimoLevelPageU.xaml.cs">
+	    <DependentUpon>%(Filename)</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

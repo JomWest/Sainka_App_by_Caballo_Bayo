@@ -1,3 +1,5 @@
+using Sainkadelux.ui.Niveles;
+
 namespace Sainkadelux;
 
 public partial class MenuPage : ContentPage
@@ -14,7 +16,7 @@ public partial class MenuPage : ContentPage
     }
     private async void OnLevelPageTapped(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new LeavelPage());
+        await Navigation.PushAsync(new WorldPage());
      
     }
 
