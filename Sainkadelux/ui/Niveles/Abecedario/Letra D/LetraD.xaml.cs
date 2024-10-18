@@ -1,10 +1,10 @@
-namespace Sainkadelux.ui.Niveles.Abecedario.Letra_b;
+namespace Sainkadelux.ui.Niveles.Abecedario.Letra_D;
 
-public partial class LetraB : ContentPage
+public partial class LetraD : ContentPage
 {
-    private string[] imagesA = { "bv.png", "blv.png" };
+    private string[] imagesA = { "dv.png", "dlv.png" };
     private int currentImageIndex = 0;
-    public LetraB()
+    public LetraD()
 	{
 		InitializeComponent();
         ChangeImageWithAnimation();
@@ -27,7 +27,7 @@ public partial class LetraB : ContentPage
     }
     private async void NivelOneClicked(object sender, EventArgs e)
     {
-        Navigation.InsertPageBefore(new LevelPage1b(), this);
+        Navigation.InsertPageBefore(new LevelPage1D(), this);
         await Navigation.PopAsync();
 
     }

@@ -1,26 +1,20 @@
-
 using CommunityToolkit.Maui.Views;
-using Firebase.Auth;
 using Microsoft.Maui.Storage;
 using Newtonsoft.Json.Linq;
 using Sainkadelux.data.Services;
 using SkiaSharp.Extended.UI.Controls;
 
-namespace Sainkadelux.ui.Niveles.Abecedario.Letra_c;
+namespace Sainkadelux.ui.Niveles.Abecedario.Letra_e;
 
-public partial class UltimoLevelePageC : ContentPage
+public partial class UltimoLevePageEE : ContentPage
 {
     private CancellationTokenSource? _cancellationTokenSource;
     private HttpClient _httpClient;
     string _prediction;
     private bool _isCapturing = true;
-
     private readonly string userId = GlobalUser.UserId;
-
-
     private readonly FirebaseConnect _firebase = new FirebaseConnect();
-
-    public UltimoLevelePageC()
+    public UltimoLevePageEE()
 	{
 		InitializeComponent();
         _httpClient = new HttpClient();
@@ -30,6 +24,7 @@ public partial class UltimoLevelePageC : ContentPage
         base.OnAppearing();
 
         await Task.Delay(2000);
+
         _isCapturing = true;
         StartCameraCapture();
     }
@@ -49,10 +44,9 @@ public partial class UltimoLevelePageC : ContentPage
             {
                 try
                 {
-                    // Verificación 2: Verifica si cameraView está disponible
                     if (cameraView.IsAvailable)
                     {
-                        // Captura la imagen si está disponible
+                        // Llama a CaptureImage, lo cual activará el evento MediaCaptured
                         await cameraView.CaptureImage(CancellationToken.None);
                     }
                     else
@@ -65,12 +59,11 @@ public partial class UltimoLevelePageC : ContentPage
                     Console.WriteLine($"Error: {ex.Message}");
                 }
 
-                // Espera 3 segundos antes de capturar la siguiente imagen
+                // Espera 5 segundos antes de capturar la siguiente imagen
                 await Task.Delay(3000);
             }
         }
     }
-
     private async void cameraView_MediaCaptured(object sender, CommunityToolkit.Maui.Views.MediaCapturedEventArgs e)
     {
 
@@ -112,11 +105,10 @@ public partial class UltimoLevelePageC : ContentPage
             _prediction = $"error: {ex.Message}";
         }
     }
-
     private async void VerificarPrediccion()
     {
 
-        if (_prediction == "C")
+        if (_prediction == "E")
         {
             LevelStack.IsVisible = false;
 
@@ -124,7 +116,7 @@ public partial class UltimoLevelePageC : ContentPage
             SKLottieView fireworksAnimation = (SKLottieView)FindByName("fireworksAnimation");
             if (fireworksAnimation != null)
             {
-                if (GlobalUser.currentLevel == 1)
+                if (GlobalUser.currentLevel == 2)
                 {
                     var newLevel = GlobalUser.currentLevel + 1;
                     await _firebase.GuardarProgreso(userId, newLevel);
@@ -141,7 +133,6 @@ public partial class UltimoLevelePageC : ContentPage
             }
         }
     }
-
     private async void Menuclicked(object seder, EventArgs e)
     {
         Navigation.InsertPageBefore(new FirtsAbecedarioPage(), this);

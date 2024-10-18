@@ -1,12 +1,11 @@
-using Microsoft.Maui.Controls;
+namespace Sainkadelux.ui.Niveles.Abecedario.Letra_D;
 
-namespace Sainkadelux.ui.Niveles.Abecedario.Letra_c;
-
-public partial class LevelPage1C : ContentPage
+public partial class LevelPage1D : ContentPage
 {
+
     private string selectedAnswer;
 
-    public LevelPage1C()
+    public LevelPage1D()
 	{
 		InitializeComponent();
 	}
@@ -21,13 +20,13 @@ public partial class LevelPage1C : ContentPage
 
     private void ResetFrameColors()
     {
-        FrameL.BackgroundColor = Colors.LightGray;
-        FrameC.BackgroundColor = Colors.LightGray;
-        FrameP.BackgroundColor = Colors.LightGray;
+        FrameH.BackgroundColor = Colors.LightGray;
+        FrameT.BackgroundColor = Colors.LightGray;
+        FrameD.BackgroundColor = Colors.LightGray;
     }
     private async void SiguienteRetoCliecked(object sender, EventArgs e)
     {
-        Navigation.InsertPageBefore(new LevelPage2C(), this);
+        Navigation.InsertPageBefore(new LevelPage2D(), this);
         await Navigation.PopAsync();
 
     }
@@ -41,7 +40,7 @@ public partial class LevelPage1C : ContentPage
     private async void NivelOneClicked(object sender, EventArgs e)
     {
 
-        if (selectedAnswer == "L")
+        if (selectedAnswer == "D")
         {
             CheckFrame.IsVisible = true;
             Continuarbtn.IsVisible = false;

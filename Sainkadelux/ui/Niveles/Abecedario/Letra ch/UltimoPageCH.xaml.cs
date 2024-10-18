@@ -1,14 +1,12 @@
-
 using CommunityToolkit.Maui.Views;
-using Firebase.Auth;
 using Microsoft.Maui.Storage;
 using Newtonsoft.Json.Linq;
 using Sainkadelux.data.Services;
 using SkiaSharp.Extended.UI.Controls;
 
-namespace Sainkadelux.ui.Niveles.Abecedario.Letra_c;
+namespace Sainkadelux.ui.Niveles.Abecedario.Letra_ch;
 
-public partial class UltimoLevelePageC : ContentPage
+public partial class UltimoPageCH : ContentPage
 {
     private CancellationTokenSource? _cancellationTokenSource;
     private HttpClient _httpClient;
@@ -19,8 +17,7 @@ public partial class UltimoLevelePageC : ContentPage
 
 
     private readonly FirebaseConnect _firebase = new FirebaseConnect();
-
-    public UltimoLevelePageC()
+    public UltimoPageCH()
 	{
 		InitializeComponent();
         _httpClient = new HttpClient();
@@ -116,7 +113,7 @@ public partial class UltimoLevelePageC : ContentPage
     private async void VerificarPrediccion()
     {
 
-        if (_prediction == "C")
+        if (_prediction == "CH")
         {
             LevelStack.IsVisible = false;
 

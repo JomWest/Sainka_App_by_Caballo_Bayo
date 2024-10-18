@@ -2,6 +2,10 @@ using Sainkadelux.data.Services;
 using Sainkadelux.Niveles.Letra_a;
 using Sainkadelux.ui.Niveles.Abecedario.Letra_a;
 using Sainkadelux.ui.Niveles.Abecedario.Letra_b;
+using Sainkadelux.ui.Niveles.Abecedario.Letra_c;
+using Sainkadelux.ui.Niveles.Abecedario.Letra_ch;
+using Sainkadelux.ui.Niveles.Abecedario.Letra_D;
+using Sainkadelux.ui.Niveles.Abecedario.Letra_e;
 using Sainkadelux.ui.Niveles.Letra_e;
 using Sainkadelux.ui.Niveles.Letra_i;
 using Sainkadelux.ui.Niveles.Letra_o;
@@ -51,14 +55,35 @@ public partial class FirtsAbecedarioPage : ContentPage
         Navigation.InsertPageBefore(new LevelPageAA(), this);
         await Navigation.PopAsync();
     }
+    private async void OnImageTappedC(object sender, EventArgs e)
+    {
+        Navigation.InsertPageBefore(new LetraC(), this);
+        await Navigation.PopAsync();
+    }
     private async void OnImageTappedB(object sender, EventArgs e)
     {
         Navigation.InsertPageBefore(new LetraB(), this);
         await Navigation.PopAsync();
     }
+    private async void OnImageTappedE(object sender, EventArgs e)
+    {
+        Navigation.InsertPageBefore(new LetraEE(), this);
+        await Navigation.PopAsync();
+    }
     private async void BackButton(object sender, EventArgs e)
     {
         Navigation.InsertPageBefore(new WorldPage(), this);
+        await Navigation.PopAsync();
+    }
+
+    private async void OnImageTappedD(object sender, EventArgs e)
+    {
+        Navigation.InsertPageBefore(new LetraD(), this);
+        await Navigation.PopAsync();
+    }
+    private async void OnImageTappedCH(object sender, EventArgs e)
+    {
+        Navigation.InsertPageBefore(new LetraCh(), this);
         await Navigation.PopAsync();
     }
     private async void ChangeImageWithAnimationA()

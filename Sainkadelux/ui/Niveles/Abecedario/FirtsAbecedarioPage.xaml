@@ -42,36 +42,36 @@
                 <!-- Letra C -->
                 <Frame HasShadow="True" Padding="40" WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="0,0,150,0">
                     <Image x:Name="animatedImageC" Source="cb.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center">
-                        <!--<Image.GestureRecognizers>
+                        <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnImageTappedC" CommandParameter="C"/>
-                        </Image.GestureRecognizers>-->
+                        </Image.GestureRecognizers>
                     </Image>
                 </Frame>
 
                 <!-- Letra CH -->
                 <Frame HasShadow="True" Padding="40" WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="150,0,0,0">
                     <Image x:Name="animatedImageCH" Source="chb.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center">
-                        <!--<Image.GestureRecognizers>
+                        <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnImageTappedCH" CommandParameter="CH"/>
-                        </Image.GestureRecognizers>-->
+                        </Image.GestureRecognizers>
                     </Image>
                 </Frame>
 
                 <!-- Letra D -->
                 <Frame HasShadow="True" Padding="40" WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="0,0,150,0">
                     <Image x:Name="animatedImageD" Source="db.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center">
-                        <!--<Image.GestureRecognizers>
+                        <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnImageTappedD" CommandParameter="D"/>
-                        </Image.GestureRecognizers-->
+                        </Image.GestureRecognizers>
                     </Image>
                 </Frame>
 
                 <!-- Letra E -->
                 <Frame HasShadow="True" Padding="40" WidthRequest="130" HeightRequest="130" ZIndex="1" CornerRadius="40" BackgroundColor="White" BorderColor="Transparent" Margin="150,0,0,0">
                     <Image x:Name="animatedImageE" Source="eb.png" WidthRequest="70" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center">
-                        <!--<Image.GestureRecognizers>
+                        <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnImageTappedE" CommandParameter="E"/>
-                        </Image.GestureRecognizers>-->
+                        </Image.GestureRecognizers>
                     </Image>
                 </Frame>
 

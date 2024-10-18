@@ -291,6 +291,18 @@
 	  <MauiXaml Update="ui\Niveles\Abecedario\Letra b\UltimoLevelPageb.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra ch\LetraCh.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra ch\LevelPage1CH.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra ch\LevelPage2CH.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra ch\UltimoPageCH.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\LetraC.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -301,6 +313,30 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ui\Niveles\Abecedario\Letra c\UltimoLevelePageC.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra D\LetraD.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra D\LevelPage1D.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra D\LevelPage2D.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra D\UltimoevelPageD.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra e\LetraEE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra e\LevelPage1EE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra e\LevelPage2EE.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ui\Niveles\Abecedario\Letra e\UltimoLevePageEE.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="ui\Niveles\Vocales\LeavelPage.xaml">

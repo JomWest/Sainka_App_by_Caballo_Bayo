@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.ui.Niveles.Abecedario.Letra_e.LetraEE"
+             Title="LetraEE">
+    <VerticalStackLayout>
+        <Label Text="Conti nuemos con la letra E" FontSize="22" FontFamily="PoppinsBold" HorizontalTextAlignment="Center" Margin="0,40,0,0"/>
+        <VerticalStackLayout Spacing="10">
+            <Frame CornerRadius="25" WidthRequest="194" HeightRequest="194" BackgroundColor="#2760DB" Margin="0,150,0,0">
+                <Image x:Name="animatedImageE" Source="ev.png" WidthRequest="100" HeightRequest="100"/>
+            </Frame>
+            <Label Text="Letra E" HorizontalTextAlignment="Center" FontSize="20" FontFamily="PoppinsLight"/>
+        </VerticalStackLayout>
+
+        <Label x:Name="WelcomeLabel"
+        Text="Observa la imagen arriba para aprender la seña. Completa los retos y al final, haz la seña frente a la cámara para avanzar."
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        HorizontalTextAlignment="Center"
+        VerticalTextAlignment="Center"
+        LineBreakMode="WordWrap"
+        Padding="10"
+        FontSize="18"
+        TextColor="Black"
+        BackgroundColor="White"
+        Margin="0,40,0,0"
+            FontFamily="PoppinsLigth"/>
+        <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,70,0,0" >
+            <Button  Text="continuar" CharacterSpacing="1" FontSize="26" WidthRequest="300" HeightRequest="100" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Padding="20" FontFamily="PoppisLigth" Clicked="Siguientelevelclicked"/>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

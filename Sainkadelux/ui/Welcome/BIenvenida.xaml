@@ -12,7 +12,7 @@
         <Frame x:Name="AnimatedFrame" Padding="20" BackgroundColor="White" BorderColor="Transparent" CornerRadius="50" IsVisible="False" VerticalOptions="End" TranslationY="700" Margin="0,-150,0,0" ZIndex="1" HeightRequest="700">
             <VerticalStackLayout Margin="0,-20,0,0" >
                 <Label Text="BIENVENIDOS" HorizontalTextAlignment="Center" FontFamily="PoppinsBold" FontSize="30" FontAttributes="Bold" Margin="0,30,0,0" CharacterSpacing="-1"/>
-                <Label x:Name="WelcomeLabel"
+                <Label x:Name="WelcomeLabel1"
                            Text="|"
                            HorizontalOptions="Center"
                            VerticalOptions="Center"

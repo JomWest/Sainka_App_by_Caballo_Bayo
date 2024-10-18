@@ -9,7 +9,7 @@
             <Frame CornerRadius="25" WidthRequest="194" HeightRequest="194" BackgroundColor="#2760DB" Margin="0,150,0,0">
                 <Image x:Name="animatedImageA" Source="bv.png" WidthRequest="100" HeightRequest="100"/>
             </Frame>
-            <Label Text="Letra A" HorizontalTextAlignment="Center" FontSize="20" FontFamily="PoppinsLight"/>
+            <Label Text="Letra B" HorizontalTextAlignment="Center" FontSize="20" FontFamily="PoppinsLight"/>
         </VerticalStackLayout>
 
         <Label x:Name="WelcomeLabel"

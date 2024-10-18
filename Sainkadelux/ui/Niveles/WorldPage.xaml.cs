@@ -35,19 +35,19 @@ public partial class WorldPage : ContentPage
     {
         for (int i = 0; i < count; i++)
         {
-           
+
             var star = new Image
             {
-                Source = "star.png", 
+                Source = "star.png",
                 WidthRequest = 50,
                 HeightRequest = 50,
-                Opacity = 1 
+                Opacity = 1
             };
 
 
-            double x = random.NextDouble(); 
+            double x = random.NextDouble();
             double y = random.NextDouble();
-            AbsoluteLayout.SetLayoutBounds(star, new Rect(x, y, -1, -1)); 
+            AbsoluteLayout.SetLayoutBounds(star, new Rect(x, y, -1, -1));
             AbsoluteLayout.SetLayoutFlags(star, AbsoluteLayoutFlags.PositionProportional);
 
             starContainer.Children.Add(star);

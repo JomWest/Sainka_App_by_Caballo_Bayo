@@ -27,7 +27,7 @@ public partial class BIenvenida : ContentPage
     private async void AnimateTyping()
     {
         var originalText = "¡Bienvenido a Sainka! Comunícate sin barreras y conecta con el mundo a través del lenguaje de señas. ¡Estamos aquí para ayudarte a entender y ser entendido en cualquier momento y lugar!";
-        Label welcomeLabel = WelcomeLabel;
+        Label welcomeLabel = WelcomeLabel1;
 
         welcomeLabel.Text = string.Empty;
         foreach (var character in originalText)

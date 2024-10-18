@@ -1,12 +1,10 @@
-using Microsoft.Maui.Controls;
+namespace Sainkadelux.ui.Niveles.Abecedario.Letra_e;
 
-namespace Sainkadelux.ui.Niveles.Abecedario.Letra_c;
-
-public partial class LevelPage1C : ContentPage
+public partial class LevelPage2EE : ContentPage
 {
     private string selectedAnswer;
 
-    public LevelPage1C()
+    public LevelPage2EE()
 	{
 		InitializeComponent();
 	}
@@ -21,35 +19,39 @@ public partial class LevelPage1C : ContentPage
 
     private void ResetFrameColors()
     {
-        FrameL.BackgroundColor = Colors.LightGray;
-        FrameC.BackgroundColor = Colors.LightGray;
-        FrameP.BackgroundColor = Colors.LightGray;
+        FrameI.BackgroundColor = Color.FromArgb("#2760DB");
+        FrameE.BackgroundColor = Color.FromArgb("#2760DB");
+        FrameU.BackgroundColor = Color.FromArgb("#2760DB");
     }
     private async void SiguienteRetoCliecked(object sender, EventArgs e)
     {
-        Navigation.InsertPageBefore(new LevelPage2C(), this);
+        Navigation.InsertPageBefore(new UltimoLevePageEE(), this);
         await Navigation.PopAsync();
 
     }
+
     private async void ReintenatrClicked(object sender, EventArgs e)
     {
         ResetFrameColors();
         ErrorFrame.IsVisible = false;
+        OpcionesStack.IsVisible = true;
 
     }
 
     private async void NivelOneClicked(object sender, EventArgs e)
     {
 
-        if (selectedAnswer == "L")
+        if (selectedAnswer == "E")
         {
             CheckFrame.IsVisible = true;
             Continuarbtn.IsVisible = false;
+            OpcionesStack.IsVisible = false;
         }
         else
         {
             ErrorFrame.IsVisible = true;
             Continuarbtn.IsVisible = false;
+            OpcionesStack.IsVisible = false;
         }
     }
 }

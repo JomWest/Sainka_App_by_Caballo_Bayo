@@ -61,5 +61,6 @@
 
             </VerticalStackLayout>
         </ScrollView>
+        <AbsoluteLayout/>
     </Grid>
 </ContentPage>
