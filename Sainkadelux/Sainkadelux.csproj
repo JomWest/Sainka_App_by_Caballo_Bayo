@@ -152,6 +152,7 @@
 	  <None Remove="Resources\Images\ll.png" />
 	  <None Remove="Resources\Images\llb.png" />
 	  <None Remove="Resources\Images\llbl.png" />
+	  <None Remove="Resources\Images\llbll.png" />
 	  <None Remove="Resources\Images\lll.png" />
 	  <None Remove="Resources\Images\lllv.png" />
 	  <None Remove="Resources\Images\llv.png" />
@@ -248,6 +249,7 @@
 	  <None Remove="Resources\Images\zl.png" />
 	  <None Remove="Resources\Images\zlv.png" />
 	  <None Remove="Resources\Images\zv.png" />
+	  <None Remove="Resources\Images\ñb.png" />
 	  <None Remove="Resources\Raw\chek.json" />
 	  <None Remove="Resources\Raw\error.json" />
 	  <None Remove="Resources\Raw\fireworks.json" />
