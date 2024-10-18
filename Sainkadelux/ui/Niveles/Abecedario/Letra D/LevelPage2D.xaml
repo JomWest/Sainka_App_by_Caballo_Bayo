@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.ui.Niveles.Abecedario.Letra_D.LevelPage2D"
+              xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
+ NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout>
+        <Label Text="Elige la respuesta correcta" FontSize="22" FontFamily="PoppinsBold" HorizontalTextAlignment="Center" Margin="0,40,0,0"/>
+        <VerticalStackLayout >
+            <Label Text="Selecciona la vocal D" HorizontalTextAlignment="Center" FontSize="24" FontFamily="PoppinsLight" Margin="0,180,0,0"/>
+            <HorizontalStackLayout x:Name="OpcionesStack" Spacing="20" HorizontalOptions="Center" Margin="0,-120,0,0">
+                <Frame x:Name="FrameK" CornerRadius="25" WidthRequest="100" HeightRequest="100" BackgroundColor="#2760DB" Margin="0,150,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAnswerTapped" CommandParameter="K" />
+                    </Frame.GestureRecognizers>
+                    <Image x:Name="ImagenK" Source="kbl.png" WidthRequest="70" HeightRequest="70"/>
+                </Frame>
+                <Frame x:Name="FrameD" CornerRadius="25" WidthRequest="100" HeightRequest="100" BackgroundColor="#2760DB" Margin="0,150,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAnswerTapped" CommandParameter="D" />
+                    </Frame.GestureRecognizers>
+                    <Image  Source="dbl.png" WidthRequest="70" HeightRequest="70"/>
+                </Frame>
+                <Frame x:Name="FrameL" CornerRadius="25" WidthRequest="100" HeightRequest="100" BackgroundColor="#2760DB" Margin="0,150,0,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnAnswerTapped" CommandParameter="L" />
+                    </Frame.GestureRecognizers>
+                    <Image  Source="lbl.png" WidthRequest="70" HeightRequest="70"/>
+                </Frame>
+            </HorizontalStackLayout>
+
+        </VerticalStackLayout>
+
+
+        <Frame x:Name="Continuarbtn" Padding="0" CornerRadius="50" WidthRequest="280" HeightRequest="70" Margin="0,220,0,0" IsVisible="False">
+            <Button  Text="Comprobar" CharacterSpacing="1" FontSize="26" WidthRequest="300" HeightRequest="100" Background="#00F1AF" TextColor="Black" Margin="0,0,0,0" Padding="20" FontFamily="PoppinsLight" Clicked="NivelOneClicked" />
+        </Frame>
+
+
+        <Frame x:Name="ErrorFrame" WidthRequest="300" HeightRequest="400" Margin="0,-150,0,0" CornerRadius="25" IsVisible="False" BorderColor="Red">
+            <VerticalStackLayout Spacing="50">
+                <skia:SKLottieView Source="error.json"  RepeatCount="-1" HeightRequest="150" WidthRequest="150"  Margin="0,0,0,0"/>
+                <Label x:Name="WelcomeLabel" Text="Ups!, parece que no has elegido la respuesta correcta, recuerda el nivel anterior y vuelve a intentarlo!" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="18" TextColor="Black" Margin="0,-50,0,0" FontFamily="PoppinsLigth"/>
+                <Frame CornerRadius="25" Padding="0">
+                    <Button Text="Reintentar" BackgroundColor="Red" FontSize="22" Clicked="ReintenatrClicked" FontFamily="Poppinslight"/>
+                </Frame>
+            </VerticalStackLayout>
+
+        </Frame>
+        <Frame x:Name="CheckFrame" WidthRequest="300" HeightRequest="450" Margin="0,-140,0,0" CornerRadius="25" IsVisible="False" Padding="0" BorderColor="#00F1AF">
+            <VerticalStackLayout Spacing="10">
+                <skia:SKLottieView Source="chek.json" 
+                 RepeatCount="-1" HeightRequest="300" WidthRequest="300"  Margin="0,-50,0,0"/>
+                <Label  Text="¡Has aprendido muy bien! En el siguiente nivel pondrás a prueba todo lo que has aprendido y realizarás con tus manos la seña para superar el reto. ¡Vamos a ello!" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" LineBreakMode="WordWrap"  Padding="10" FontSize="18" TextColor="Black" Margin="0,-50,0,0" FontFamily="PoppinsLigth"/>
+                <Frame Padding="1" CornerRadius="25" BorderColor="Transparent">
+                    <Button Text="Ultimo reto!" BackgroundColor="#00F1AF" FontSize="22" WidthRequest="240" HeightRequest="50" Clicked="SiguienteRetoCliecked" FontFamily="PoppinsLight" TextColor="White"/>
+                </Frame>
+
+            </VerticalStackLayout>
+
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

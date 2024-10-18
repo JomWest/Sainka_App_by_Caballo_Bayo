@@ -1,5 +1,11 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+using Sainkadelux.di;
+using SkiaSharp.Views.Maui.Controls.Hosting;
+using Sainkadelux.ViewModels;
+using Sainkadelux.data.Repositories;
+using Sainkadelux.domain.Repositories;
+using Sainkadelux.ui.ViewModels;
 
 namespace Sainkadelux
 {
@@ -11,6 +17,7 @@ namespace Sainkadelux
             builder
                 .UseMauiApp<App>()
                  .UseMauiCommunityToolkitCamera()
+                 .UseSkiaSharp()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -20,11 +27,31 @@ namespace Sainkadelux
 
                 });
 
+            builder.Services.AddSingleton<IFirebaseAuthRepository, FirebaseAuthRepository>();
+            builder.Services.AddSingleton<INavigationService, NavigationService>();
+
+            builder.Services.AddSingleton<LoginViewModel>();
+            builder.Services.AddSingleton<RegisterViewModel>();
+            builder.Services.AddSingleton<OlvidasteContraViewModel>();
+
+            builder.Services.AddTransient<LoginOptionPage>();
+            builder.Services.AddTransient<Func<LoginOptionPage>>(sp => () => sp.GetRequiredService<LoginOptionPage>());
+
+            builder.Services.AddTransient<RegistrartePage>();
+            builder.Services.AddTransient<Func<RegistrartePage>>(sp => () => sp.GetRequiredService<RegistrartePage>());
+
+            builder.Services.AddTransient<OlidasteContraPage>();
+            builder.Services.AddTransient<Func<OlidasteContraPage>>(sp => () => sp.GetRequiredService<OlidasteContraPage>());
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
-            return builder.Build();
+            var app = builder.Build();
+
+            ServiceHelper.Initialize(app.Services);
+
+            return app;
         }
     }
 }

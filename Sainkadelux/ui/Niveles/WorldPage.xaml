@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sainkadelux.ui.Niveles.WorldPage"
+           NavigationPage.HasNavigationBar="False">
+    <Grid BackgroundColor="Black">
+        <AbsoluteLayout x:Name="starContainer" ZIndex="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <ScrollView >
+            <VerticalStackLayout>
+                <Frame WidthRequest="395" HeightRequest="200" Padding="10" CornerRadius="25" VerticalOptions="Start" Margin="0,-90,0,0" Background="#2760DB" BorderColor="Transparent">
+                    <VerticalStackLayout VerticalOptions="End">
+                        <Image Source="back.png" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="35" Margin="20,0,0,10">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="backtapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label Text="MUNDOS DE APRENDIZAJE" TextColor="White" VerticalOptions="End" HorizontalOptions="Center" FontSize="20"/>
+                    </VerticalStackLayout>
+                </Frame>
+                <!--#region Vocales-->
+                <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                  
+                    <Frame HasShadow="True" Padding="0"  WidthRequest="200" HeightRequest="200" ZIndex="1" CornerRadius="100" BackgroundColor="White" BorderColor="Transparent" Margin="0,50,150,-35">
+                        <Image  Source="vocales.png" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="Center" >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnImageTappedVocalesWorld" CommandParameter="V"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        
+                    </Frame>
+                    <Image Source="nave.png" WidthRequest="120" Margin="250,20,0,-80"/>
+       
+
+                </VerticalStackLayout>
+                <!--#endregion-->
+                <!--#region Abecedario-->
+                <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                    <Frame HasShadow="True" Padding="0"  WidthRequest="200" HeightRequest="200" ZIndex="1" CornerRadius="100" BackgroundColor="White" BorderColor="Transparent" Margin="150,50,0,0">
+                        <Image  Source="abecedario.png" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="Center" >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnImageTappedABCWorld" CommandParameter="A"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+              
+                </VerticalStackLayout>
+                <!--#endregion-->
+                <!--#region Numeros-->
+                <VerticalStackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+                    <Frame HasShadow="True" Padding="0"  WidthRequest="200" HeightRequest="200" ZIndex="1" CornerRadius="100" BackgroundColor="White" BorderColor="Transparent" Margin="0,50,150,0">
+                        <Image x:Name="animatedImage" Source="numeros.png" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="Center" >
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnImageTappedVocalesWorld" CommandParameter="N"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Frame>
+                </VerticalStackLayout>
+                <!--#endregion-->
+                
+                
+
+            </VerticalStackLayout>
+        </ScrollView>
+        <AbsoluteLayout/>
+    </Grid>
+</ContentPage>
