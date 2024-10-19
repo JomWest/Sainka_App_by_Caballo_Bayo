@@ -41,14 +41,15 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
-		<MauiSplashScreen Include="Resources\Images\splash.svg">
-		  <Color>#512BD4</Color>
-		  <BaseSize>128,128</BaseSize>
+    <MauiIcon Include="Resources\AppIcon\ilogoapp.png" Color="#2760bd" />
+    
+    <MauiSplashScreen Include="Resources\Images\sainkasplash.png">                 
+		  <Color>#2760bd</Color>
+		  <BaseSize>1000,250</BaseSize>
 		</MauiSplashScreen>
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\sainkasplashlogo.png" Color="#2760bd" BaseSize="1000,250" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -74,6 +75,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\AppIcon\ilogoapp.png" />
 	  <None Remove="Resources\Fonts\Poppins-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Poppins-Light.ttf" />
 	  <None Remove="Resources\Images\a.png" />
