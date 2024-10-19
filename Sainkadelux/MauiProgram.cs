@@ -6,6 +6,8 @@ using Sainkadelux.ViewModels;
 using Sainkadelux.data.Repositories;
 using Sainkadelux.domain.Repositories;
 using Sainkadelux.ui.ViewModels;
+using System.Reflection;
+using Microsoft.Extensions.Configuration;
 
 namespace Sainkadelux
 {
@@ -26,6 +28,19 @@ namespace Sainkadelux
                     fonts.AddFont("Poppins-Light.ttf", "PoppinsLight");
 
                 });
+
+            builder.AddAppSettings();
+
+            string sainkadeluxUrlBaseApi = builder.Configuration.GetValue<string>("BASE_URL_API");
+            Console.WriteLine($"La URL base de la API es: {sainkadeluxUrlBaseApi}");
+
+            string firebaseKey = builder.Configuration.GetValue<string>("FIREBASE_KEY");
+
+            if (firebaseKey.Length != 0 && sainkadeluxUrlBaseApi.Length != 0)
+            {
+                builder.Services.AddSingleton(new AppConfig(sainkadeluxUrlBaseApi, firebaseKey));
+            }
+
 
             builder.Services.AddSingleton<IFirebaseAuthRepository, FirebaseAuthRepository>();
             builder.Services.AddSingleton<INavigationService, NavigationService>();
@@ -53,5 +68,30 @@ namespace Sainkadelux
 
             return app;
         }
+
+        private static void AddAppSettings(this MauiAppBuilder builder)
+        {
+            try
+            {
+                using Stream stream = Assembly.GetExecutingAssembly()
+                   .GetManifestResourceStream("Sainkadelux.appsettings.json");
+
+                if (stream != null)
+                {
+                    IConfiguration config = new ConfigurationBuilder()
+                        .AddJsonStream(stream).Build();
+                    builder.Configuration.AddConfiguration(config);
+                }
+                else
+                {
+                    Console.WriteLine("No se encontró el archivo appsettings.json en los recursos incrustados.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al cargar appsettings.json: {ex.Message}");
+            }
+        }
+
     }
 }

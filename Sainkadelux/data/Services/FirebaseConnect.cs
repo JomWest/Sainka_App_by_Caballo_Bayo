@@ -5,17 +5,20 @@ using System.Threading.Tasks;
 using Firebase.Auth.Providers;
 using Firebase.Auth;
 using Newtonsoft.Json;
+using Sainkadelux.di;
 
 namespace Sainkadelux.data.Services
 {
     class FirebaseConnect
     {
         private readonly HttpClient _httpClient;
-        private readonly string _firebaseApiKey = "AIzaSyCQC9_kaY2FZzBPVfWa95XuR11lVPg0ZoQ";
+        private readonly string _firebaseApiKey;
 
         public FirebaseConnect()
         {
             _httpClient = new HttpClient();
+            var appConfig = ServiceHelper.GetService<AppConfig>();
+            _firebaseApiKey = appConfig.FirebaseKey;
         }
 
         public async Task EnviarCorreoRestablecimientoContraseña(string email)

@@ -17,8 +17,8 @@
         <VerticalStackLayout x:Name="LevelStack" IsVisible="True">
             <Frame Padding="0" BorderColor="Transparent" CornerRadius="20" WidthRequest="380" HeightRequest="300" VerticalOptions="Start" Margin="0,20,0,0" >
                 <Grid Grid.Row="0" Grid.Column="0">
-                    <toolkit:CameraView   Grid.Row="0"  x:Name="cameraView" VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand" MediaCaptured="cameraView_MediaCaptured" HeightRequest="300"
-              WidthRequest="380"/>
+                    <toolkit:CameraView   Grid.Row="0"  x:Name="cameraView" VerticalOptions="FillAndExpand"  HorizontalOptions="FillAndExpand" MediaCaptured="cameraView_MediaCaptured" HeightRequest="500"
+              WidthRequest="500"/>
                 </Grid>
             </Frame>
 

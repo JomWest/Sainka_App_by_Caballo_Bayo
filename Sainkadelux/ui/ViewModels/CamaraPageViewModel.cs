@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Newtonsoft.Json.Linq;
+using Sainkadelux.di;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,15 @@ namespace Sainkadelux.ui.ViewModels
     public partial class CamaraPageViewModel : ObservableObject
     {
         private readonly HttpClient _httpClient;
+        private readonly string _apiBaseUrl;
 
         public CamaraPageViewModel()
         {
             _httpClient = new HttpClient();
             IsCapturing = true;
+
+            var appConfig = ServiceHelper.GetService<AppConfig>();
+            _apiBaseUrl = appConfig.ApiBaseUrl;
         }
 
         private string oracion = "";
@@ -46,7 +51,7 @@ namespace Sainkadelux.ui.ViewModels
                 using var content = new MultipartFormDataContent();
                 content.Add(new StreamContent(imageStream), "image", "frame.jpg");
 
-                var response = await _httpClient.PostAsync("http://162.215.175.28:5000/predict", content);
+                var response = await _httpClient.PostAsync(_apiBaseUrl, content);
                 var result = await response.Content.ReadAsStringAsync();
 
                 var jsonResult = JObject.Parse(result);

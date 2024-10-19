@@ -13,7 +13,7 @@
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer Tapped="OnAnswerTapped" CommandParameter="I" />
                     </Frame.GestureRecognizers>
-                    <Image x:Name="ImagenI" Source="i++++++++++++++++++++++++++++++bl.png" WidthRequest="70" HeightRequest="70"/>
+                    <Image x:Name="ImagenI" Source="ibl.png" WidthRequest="70" HeightRequest="70"/>
                 </Frame>
            
                 <Frame x:Name="FrameE" CornerRadius="25" WidthRequest="100" HeightRequest="100" BackgroundColor="#2760DB" Margin="0,150,0,0">

@@ -2,6 +2,7 @@ using CommunityToolkit.Maui.Core;
 using CommunityToolkit.Maui.Views;
 using Newtonsoft.Json.Linq;
 using Sainkadelux.data.Services;
+using Sainkadelux.di;
 using SkiaSharp.Extended.UI.Controls;
 
 namespace Sainkadelux.ui.Niveles.Letra_e;
@@ -14,11 +15,15 @@ public partial class UltimolevelPageE : ContentPage
     private bool _isCapturing = true;
     private readonly string userId = GlobalUser.UserId;
     private readonly FirebaseConnect _firebase = new FirebaseConnect();
+    private readonly string _apiBaseUrl;
+
 
     public UltimolevelPageE()
     {
         InitializeComponent();
         _httpClient = new HttpClient();
+        var appConfig = ServiceHelper.GetService<AppConfig>();
+        _apiBaseUrl = appConfig.ApiBaseUrl;
     }
     protected override async void OnAppearing()
     {
@@ -88,12 +93,12 @@ public partial class UltimolevelPageE : ContentPage
             using var content = new MultipartFormDataContent();
             content.Add(new StreamContent(memoryStream), "image", "frame.jpg");
 
-            var response = await _httpClient.PostAsync("http://162.215.175.28:5000/predict", content);
+            var response = await _httpClient.PostAsync(_apiBaseUrl, content);
             var result = await response.Content.ReadAsStringAsync();
 
             var jsonResult = JObject.Parse(result);
             var prediction = jsonResult["prediction"].ToString();
-
+            Console.WriteLine(prediction);
             Dispatcher.Dispatch(() =>
             {
                 _prediction = prediction;
